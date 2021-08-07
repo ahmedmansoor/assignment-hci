@@ -152,7 +152,7 @@
               class="
                 flex-grow
                 w-full
-                h-12
+                py-2
                 px-4
                 mb-3
                 transition
@@ -174,8 +174,8 @@
                 inline-flex
                 items-center
                 justify-center
-                h-12
                 px-6
+                ml-1
                 font-semibold
                 tracking-wide
                 text-white

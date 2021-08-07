@@ -150,7 +150,7 @@
               block
               w-full
               px-3
-              py-3
+              py-2
               mt-6
               font-semibold
               rounded

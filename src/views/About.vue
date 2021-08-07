@@ -1,25 +1,188 @@
 <template>
-  <div class="about bg-black text-white">
-    <h1>This is an about page</h1>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda provident
-    nulla voluptatem ipsam nobis, harum exercitationem qui laudantium officia
-    nam ipsa libero velit in autem! Nam mollitia deserunt nobis repellendus
-    earum architecto veritatis iste consectetur accusamus modi. Doloribus ullam
-    blanditiis dicta fugit rem placeat accusantium, illum repudiandae doloremque
-    fugiat quos ea sunt iusto quia eaque minus. Corporis optio fugit eius
-    nesciunt quos earum ipsa vel cum reprehenderit non architecto, itaque
-    perferendis aspernatur sunt repellat vero, sapiente omnis similique ab
-    adipisci beatae consequuntur rerum nam temporibus! Unde odit deleniti velit,
-    consequuntur voluptas dolore. At numquam fugiat illo nihil beatae ipsa
-    quaerat, odit tenetur ducimus quis quas minus neque optio? Eveniet, corporis
-    repellendus obcaecati qui delectus ad quaerat quasi sed rerum quis,
-    consectetur officiis, harum praesentium sint. Dolor corporis error minus
-    illo dolores maxime odio nobis impedit, culpa velit recusandae soluta
-    praesentium voluptates, vitae sed sit quam magnam qui ad fugiat adipisci!
-    Quos dolorem eos nam a quae, suscipit magni repellendus molestias temporibus
-    maiores quidem sequi iure enim consectetur sint impedit consequuntur quis
-    tempore officia debitis. Tempore quo velit, pariatur voluptates, repellendus
-    architecto vel placeat quas consequuntur omnis assumenda nam! Accusamus
-    dicta amet aliquam maiores harum explicabo quaerat ad est consequuntur sit?
-  </div>
+  <TabBar></TabBar>
+  <section id="SignUp" class="flex flex-col items-center h-screen md:flex-row">
+    <div
+      class="
+        hidden
+        w-full
+        h-screen
+        bg-sun bg-center bg-cover
+        lg:block
+        md:w-1/3
+        lg:w-2/3
+      "
+    >
+      <img alt="" class="object-cover w-full h-full" />
+    </div>
+    <div
+      class="
+        flex
+        items-center
+        justify-center
+        w-full
+        h-screen
+        px-20
+        bg-white
+        md:max-w-md
+        lg:max-w-full
+        md:mx-auto md:w-1/2
+      "
+    >
+      <div class="w-full h-100">
+        <h1
+          class="
+            mt-12
+            mb-5
+            sm:text-3xl
+            text-2xl
+            font-medium
+            text-black
+            tracking-ringtighter
+            title-font
+            font-heading
+          "
+        >
+          About Us
+        </h1>
+        <p class="mb-6 text-gray-900">
+          The Maldives Marketing & Public Relations Corporation (MMPRC) is the
+          national tourism office of the Maldives responsible for carrying out
+          promotional activities to become the most preferred island destination
+          of the world under the theme of the Maldives...the Sunny Side of Life;
+          whilst adhering to its mission to promote quality and sustainable
+          growth in the local tourism industry to deliver long term economic,
+          social and cultural benefits to the country.
+        </p>
+        <hr class="mb-5 border-gray-300" />
+        <div
+          class="
+            px-4
+            py-16
+            mx-auto
+            sm:max-w-xl
+            md:max-w-full
+            lg:max-w-screen-xl
+            md:px-24
+            lg:px-8
+          "
+        >
+          <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            <div class="text-center content-center">
+              <div
+                class="
+                  flex
+                  items-center
+                  justify-center
+                  w-10
+                  h-10
+                  mx-auto
+                  mb-3
+                  rounded-full
+                  bg-teal-accent-400
+                  sm:w-12 sm:h-12
+                "
+              >
+                <svg
+                  class="w-8 h-8 text-teal-900 sm:w-10 sm:h-10"
+                  stroke="currentColor"
+                  viewBox="0 0 52 52"
+                >
+                  <polygon
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    fill="none"
+                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                  ></polygon>
+                </svg>
+              </div>
+              <h6 class="text-2xl font-semibold text-deep-purple-accent-400">
+                819
+              </h6>
+              <p class="mb-2 font-bold text-md">Resorts</p>
+            </div>
+            <div class="text-center">
+              <div
+                class="
+                  flex
+                  items-center
+                  justify-center
+                  w-10
+                  h-10
+                  mx-auto
+                  mb-3
+                  rounded-full
+                  bg-teal-accent-400
+                  sm:w-12 sm:h-12
+                "
+              >
+                <svg
+                  class="w-8 h-8 text-teal-900 sm:w-10 sm:h-10"
+                  stroke="currentColor"
+                  viewBox="0 0 52 52"
+                >
+                  <polygon
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    fill="none"
+                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                  ></polygon>
+                </svg>
+              </div>
+              <h6 class="text-2xl font-semibold text-deep-purple-accent-400">
+                1.3K
+              </h6>
+              <p class="mb-2 font-bold text-md">Guesthouses</p>
+            </div>
+            <div class="text-center">
+              <div
+                class="
+                  flex
+                  items-center
+                  justify-center
+                  w-10
+                  h-10
+                  mx-auto
+                  mb-3
+                  rounded-full
+                  bg-teal-accent-400
+                  sm:w-12 sm:h-12
+                "
+              >
+                <svg
+                  class="w-8 h-8 text-teal-900 sm:w-10 sm:h-10"
+                  stroke="currentColor"
+                  viewBox="0 0 52 52"
+                >
+                  <polygon
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    fill="none"
+                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                  ></polygon>
+                </svg>
+              </div>
+              <h6 class="text-2xl font-semibold text-deep-purple-accent-400">
+                91
+              </h6>
+              <p class="mb-2 font-bold text-md">Hotels</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
+
+<script>
+import TabBar from "../components/tabbar.vue";
+
+export default {
+  name: "SignUp",
+  components: {
+    TabBar,
+  },
+};
+</script>
