@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-200">
+  <div class="bg-gray-200 px-16">
     <div
       class="
         px-4
@@ -175,9 +175,9 @@
                 items-center
                 justify-center
                 px-6
+                tracking-wider
                 ml-1
                 font-semibold
-                tracking-wide
                 text-white
                 transition
                 duration-200
@@ -192,7 +192,7 @@
               Subscribe
             </button>
           </form>
-          <p class="sm:mt-4 md:mt-1 text-sm text-gray-500">
+          <p class="sm:mt-4 md:mt-2 text-sm text-gray-500">
             Hope to see you here in the Maldives soon.
           </p>
         </div>

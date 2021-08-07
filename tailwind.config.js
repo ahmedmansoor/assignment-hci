@@ -16,6 +16,12 @@ module.exports = {
         resort4: "url('assets/img/resorts/resort4.jpg')",
         resort5: "url('assets/img/resorts/resort5.jpg')",
         resort6: "url('assets/img/resorts/resort6.jpg')",
+        resort7: "url('assets/img/resorts/resort7.jpg')",
+        resort8: "url('assets/img/resorts/resort8.jpg')",
+        resort9: "url('assets/img/resorts/resort9.jpg')",
+        resort10: "url('assets/img/resorts/resort10.jpg')",
+        resort11: "url('assets/img/resorts/resort11.jpg')",
+        resort12: "url('assets/img/resorts/resort12.jpg')",
       }),
       fontFamily: {
         heading: ["Volkhov"],
@@ -23,7 +29,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      textDecoration: ["active"],
+    },
   },
   plugins: [],
 };

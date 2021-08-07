@@ -1,6 +1,6 @@
 <template>
   <TabBar></TabBar>
-  <section id="SignUp" class="flex flex-col items-center h-screen md:flex-row">
+  <section id="About" class="flex flex-col items-center h-screen md:flex-row">
     <div
       class="
         hidden
@@ -31,15 +31,15 @@
       <div class="w-full h-100">
         <h1
           class="
-            mt-12
+            mt-8
             mb-5
             sm:text-3xl
             text-2xl
-            font-medium
+            font-black
             text-black
             tracking-ringtighter
             title-font
-            font-heading
+            font-sans
           "
         >
           About Us
@@ -53,7 +53,6 @@
           growth in the local tourism industry to deliver long term economic,
           social and cultural benefits to the country.
         </p>
-        <hr class="mb-5 border-gray-300" />
         <div
           class="
             px-4
@@ -66,7 +65,7 @@
             lg:px-8
           "
         >
-          <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 tracking-wide">
             <div class="text-center content-center">
               <div
                 class="
@@ -82,22 +81,12 @@
                   sm:w-12 sm:h-12
                 "
               >
-                <svg
-                  class="w-8 h-8 text-teal-900 sm:w-10 sm:h-10"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    stroke-width="3"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  ></polygon>
-                </svg>
+                <img
+                  src="https://img.icons8.com/fluency/96/000000/sunbathe.png"
+                />
               </div>
               <h6 class="text-2xl font-semibold text-deep-purple-accent-400">
-                819
+                300
               </h6>
               <p class="mb-2 font-bold text-md">Resorts</p>
             </div>
@@ -116,22 +105,12 @@
                   sm:w-12 sm:h-12
                 "
               >
-                <svg
-                  class="w-8 h-8 text-teal-900 sm:w-10 sm:h-10"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    stroke-width="3"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  ></polygon>
-                </svg>
+                <img
+                  src="https://img.icons8.com/fluency/96/000000/bungalow.png"
+                />
               </div>
               <h6 class="text-2xl font-semibold text-deep-purple-accent-400">
-                1.3K
+                660
               </h6>
               <p class="mb-2 font-bold text-md">Guesthouses</p>
             </div>
@@ -150,22 +129,12 @@
                   sm:w-12 sm:h-12
                 "
               >
-                <svg
-                  class="w-8 h-8 text-teal-900 sm:w-10 sm:h-10"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    stroke-width="3"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  ></polygon>
-                </svg>
+                <img
+                  src="https://img.icons8.com/fluency/96/000000/5-star-hotel.png"
+                />
               </div>
               <h6 class="text-2xl font-semibold text-deep-purple-accent-400">
-                91
+                120
               </h6>
               <p class="mb-2 font-bold text-md">Hotels</p>
             </div>
@@ -180,7 +149,7 @@
 import TabBar from "../components/tabbar.vue";
 
 export default {
-  name: "SignUp",
+  name: "About",
   components: {
     TabBar,
   },

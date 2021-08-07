@@ -1,17 +1,7 @@
 <template>
   <TabBar></TabBar>
-  <section id="SignUp" class="flex flex-col items-center h-screen md:flex-row">
-    <div
-      class="
-        hidden
-        w-full
-        h-screen
-        bg-people bg-cover
-        lg:block
-        md:w-1/3
-        lg:w-2/3
-      "
-    >
+  <section id="SignIp" class="flex flex-col items-center h-screen md:flex-row">
+    <div class="hidden w-full h-screen bg-people bg-cover lg:block md:w-2/3">
       <img alt="" class="object-cover w-full h-full" />
     </div>
     <div
@@ -21,48 +11,31 @@
         justify-center
         w-full
         h-screen
-        px-6
+        px-16
         bg-white
         md:max-w-md
         lg:max-w-full
         md:mx-auto md:w-1/2
         xl:w-1/3
-        lg:px-16
-        xl:px-12
       "
     >
       <div class="w-full h-100">
-        <a
-          class="
-            flex
-            title-font
-            font-medium
-            items-center
-            text-gray-900
-            mb-4
-            md:mb-0
-          "
-        >
-          <img
-            width="60"
-            src="https://img.icons8.com/clouds/100/000000/beach.png"
-          />
-          <span class="ml-3 font-bold text-2xl">Maldives Bookings</span>
-        </a>
         <h1
           class="
-            mt-12
+            mb-5
+            mt-3
             sm:text-3xl
             text-2xl
-            font-medium
+            font-black
             text-black
             tracking-ringtighter
-            title-font
-            font-heading
+            font-sans
           "
         >
-          Sign in
+          Sign In
         </h1>
+        <p class="mb-6 text-gray-900">Enter your credentials to continue.</p>
+        <hr class="mb-5 border-gray-300" />
         <form class="mt-6" action="#" method="POST">
           <div>
             <label
@@ -152,6 +125,7 @@
               px-3
               py-2
               mt-6
+              tracking-wider
               font-semibold
               rounded
               shadow-md

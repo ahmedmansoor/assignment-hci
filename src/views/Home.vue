@@ -19,11 +19,11 @@
           class="
             mb-6
             text-2xl
-            font-semibold
+            font-black
             tracking-tight
             sm:text-5xl
             title-font
-            font-heading
+            font-sans
           "
         >
           Find Deals for Any Season
@@ -180,7 +180,7 @@
                     transform
                     rounded
                     bg-yellow-300
-                    border-yellow-500 border-2
+                    border-yellow-400 border-2
                     hover:bg-yellow-400
                     focus:shadow-outline focus:outline-none focus:ring-2
                     ring-offset-current ring-offset-2

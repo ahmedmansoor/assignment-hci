@@ -1,16 +1,16 @@
 <template>
-  <div class="container px-5 mx-auto">
+  <div class="container px-16 mx-auto">
     <div>
-      <div class="container px-5 py-16 mx-auto">
+      <div class="container px-8 py-16 mx-auto">
         <h1
           class="
             sm:text-3xl
             text-2xl
-            font-medium
+            font-black
             title-font
             mb-2
             text-gray-900
-            font-heading
+            font-sans
           "
         >
           Popular Destonations
@@ -26,10 +26,10 @@
       class="px-4 mb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl"
     >
       <div
-        class="grid gap-3 lg:grid-cols-4 sm:max-w-sm sm:mx-auto lg:max-w-full"
+        class="grid gap-2 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full"
       >
         <!-- Card 1 -->
-        <div
+        <!-- <div
           class="
             overflow-hidden
             rounded
@@ -259,7 +259,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- Card 2 -->
         <div
           class="
@@ -735,7 +735,7 @@
             mb-3
           "
         >
-          <div class="bg-resort6 bg-cover">
+          <div class="bg-resort1 bg-cover">
             <a href="/" aria-label="Article"
               ><img class="object-cover w-full h-64 rounded" alt=""
             /></a>

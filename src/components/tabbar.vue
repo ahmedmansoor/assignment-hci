@@ -1,5 +1,5 @@
 <template>
-  <header class="body-font">
+  <header class="body-font px-16 tracking-wide">
     <div
       class="
         container
@@ -12,22 +12,14 @@
       "
     >
       <router-link :to="{ name: 'Home' }" tag="button">
-        <a
-          class="
-            flex
-            title-font
-            font-medium
-            items-center
-            text-gray-900
-            mb-4
-            md:mb-0
-          "
-        >
+        <a class="flex font-medium items-center text-gray-900 mb-4 md:mb-0">
           <img
             width="60"
             src="https://img.icons8.com/clouds/100/000000/beach.png"
           />
-          <span class="ml-3 font-bold text-2xl">Maldives Bookings</span>
+          <span class="tracking-tight ml-3 font-black font-heading text-2xl"
+            >Maldives Bookings</span
+          >
         </a>
       </router-link>
       <nav
@@ -42,7 +34,7 @@
         "
       >
         <router-link :to="{ name: 'Home' }">
-          <a class="mr-5">Home</a>
+          <a class="mr-5 hover:text-gray-400">Home</a>
         </router-link>
         <router-link :to="{ name: 'resorts' }">
           <a class="mr-5 hover:text-gray-400">Resorts</a>
@@ -58,7 +50,7 @@
             class="
               inline-flex
               items-center
-              font-semibold
+              font-bold
               transition
               duration-300
               ease-in-out
@@ -67,7 +59,7 @@
               px-3
               focus:outline-none
               bg-yellow-300
-              border-yellow-500 border-2
+              border-yellow-400 border-2
               hover:bg-yellow-400
               rounded
               text-base
