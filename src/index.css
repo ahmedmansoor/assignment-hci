@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Volkhov;
+    font-weight: 400;
+    src: url(./assets/fonts/Volkhov-Bold.ttf);
+  }
+}
