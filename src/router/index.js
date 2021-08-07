@@ -1,9 +1,11 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import Resorts from "../views/Resorts.vue";
-import SignIn from "../views/SignIn.vue";
 import Contact from "../views/Contact.vue";
 import About from "../views/About.vue";
+
+import SignUp from "../views/auth/SignUp.vue";
+import SignIn from "../views/auth/SignIn.vue";
 import TabBar from "../components/tabbar.vue";
 
 const routes = [
@@ -13,14 +15,19 @@ const routes = [
     component: TabBar,
   },
   {
-    path: "/Contact",
-    name: "contact",
-    component: Contact,
-  },
-  {
     path: "/SignIn",
     name: "signin",
     component: SignIn,
+  },
+  {
+    path: "/SignUp",
+    name: "signup",
+    component: SignUp,
+  },
+  {
+    path: "/Contact",
+    name: "contact",
+    component: Contact,
   },
   {
     path: "/",

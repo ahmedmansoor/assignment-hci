@@ -231,7 +231,8 @@
               class="
                 w-4
                 h-4
-                text-gray-600
+                text-gray-800
+                bg-yellow-200
                 transition-colors
                 duration-300
                 group-hover:text-deep-purple-accent-700
@@ -315,7 +316,7 @@
           shadow-sm
         "
       >
-        <!-- card1 -->
+        <!-- card2 -->
         <div class="bg-resort3 bg-cover bg-center">
           <img class="object-cover w-full h-64" />
         </div>
@@ -421,7 +422,8 @@
               class="
                 w-4
                 h-4
-                text-gray-600
+                text-gray-800
+                bg-yellow-200
                 transition-colors
                 duration-300
                 group-hover:text-deep-purple-accent-700
@@ -445,7 +447,8 @@
               class="
                 w-4
                 h-4
-                text-gray-600
+                text-gray-800
+                bg-yellow-200
                 transition-colors
                 duration-300
                 group-hover:text-deep-purple-accent-700
@@ -505,7 +508,7 @@
           shadow-sm
         "
       >
-        <!-- card1 -->
+        <!-- card3 -->
         <div class="bg-resort4 bg-cover bg-center">
           <img class="object-cover w-full h-64" />
         </div>
@@ -695,7 +698,7 @@
           shadow-sm
         "
       >
-        <!-- card1 -->
+        <!-- card4 -->
         <div class="bg-resort9 bg-cover bg-center">
           <img class="object-cover w-full h-64" />
         </div>
@@ -885,7 +888,7 @@
           shadow-sm
         "
       >
-        <!-- card2 -->
+        <!-- card5 -->
         <div class="bg-resort7 bg-cover bg-center">
           <img class="object-cover w-full h-64" />
         </div>
@@ -991,7 +994,8 @@
               class="
                 w-4
                 h-4
-                text-gray-600
+                text-gray-800
+                bg-yellow-200
                 transition-colors
                 duration-300
                 group-hover:text-deep-purple-accent-700
@@ -1075,7 +1079,7 @@
           shadow-sm
         "
       >
-        <!-- card3 -->
+        <!-- card6 -->
         <div class="bg-resort8 bg-cover bg-center">
           <img class="object-cover w-full h-64" />
         </div>
@@ -1181,7 +1185,8 @@
               class="
                 w-4
                 h-4
-                text-gray-600
+                text-gray-800
+                bg-yellow-200
                 transition-colors
                 duration-300
                 group-hover:text-deep-purple-accent-700

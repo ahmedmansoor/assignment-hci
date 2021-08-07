@@ -26,10 +26,17 @@
       class="px-4 mb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl"
     >
       <div
-        class="grid gap-2 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full"
+        class="
+          grid
+          gap-2
+          lg:grid-cols-4
+          md:grid-cols-3
+          sm:max-w-sm sm:mx-auto
+          lg:max-w-full
+        "
       >
         <!-- Card 1 -->
-        <!-- <div
+        <div
           class="
             overflow-hidden
             rounded
@@ -259,7 +266,8 @@
               </div>
             </div>
           </div>
-        </div> -->
+        </div>
+
         <!-- Card 2 -->
         <div
           class="
@@ -761,8 +769,8 @@
             <p class="mb-4 text-gray-700">
               Awarded with the “Certificate of Excellence” and “Traveller’s
               Choice” in 2019, also listed among the top 25 luxury resorts
-              worldwide, Ayada Maldives is a luxury private island resort
-              offering a truly luxurious retreat with a genuine Maldivian style.
+              worldwide, Ayada is a luxury private island resort offering a
+              truly luxurious retreat with a genuine Maldivian style.
             </p>
             <div class="flex space-x-4">
               <a

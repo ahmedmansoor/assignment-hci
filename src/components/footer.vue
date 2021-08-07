@@ -174,7 +174,7 @@
                 inline-flex
                 items-center
                 justify-center
-                px-6
+                px-2
                 tracking-wider
                 ml-1
                 font-semibold

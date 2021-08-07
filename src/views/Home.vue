@@ -1,20 +1,9 @@
 <template>
-  <section
-    class="text-gray-800 bg-emptybeach bg-cover bg-top bg-no-repeat container"
-  >
+  <section class="text-gray-800 bg-emptybeach bg-cover bg-top bg-no-repeat">
     <TabBar></TabBar>
     <!-- <div class="bg-white bg-opacity-5"> -->
-    <div class="container flex flex-col px-10 py-20 mx-auto lg:items-center">
-      <div
-        class="
-          flex flex-col
-          w-full
-          mx-auto
-          mb-12
-          text-left
-          lg:w-2/3 lg:text-center
-        "
-      >
+    <div class="flex flex-col px-10 py-20 mx-auto lg:items-center">
+      <div class="flex flex-col w-full mx-auto mb-12 text-left lg:text-center">
         <h1
           class="
             mb-6
@@ -53,13 +42,12 @@
           px-0
           md:px-8
           mx-auto
-          lg:w-2/3
           sm:flex-row
           justify-center
           self-center
         "
       >
-        <div class="bg-white">
+        <div class="bg-white rounded">
           <DatePicker v-model="range" mode="dateTime" :masks="masks" is-range>
             <template v-slot="{ inputValue, inputEvents, isDragging }">
               <div
@@ -99,7 +87,7 @@
                       text-center
                       py-1
                       bg-gray-100
-                      border
+                      border-2
                       rounded
                       w-full
                     "
@@ -149,7 +137,7 @@
                       text-center
                       py-1
                       bg-gray-100
-                      border
+                      border-2
                       rounded
                       w-full
                     "

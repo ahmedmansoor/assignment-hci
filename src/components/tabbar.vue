@@ -1,16 +1,6 @@
 <template>
   <header class="body-font px-16 tracking-wide">
-    <div
-      class="
-        container
-        mx-auto
-        flex flex-wrap
-        p-5
-        flex-col
-        md:flex-row
-        items-center
-      "
-    >
+    <div class="container flex flex-wrap p-5 flex-col md:flex-row items-center">
       <router-link :to="{ name: 'Home' }" tag="button">
         <a class="flex font-medium items-center text-gray-900 mb-4 md:mb-0">
           <img
@@ -34,16 +24,64 @@
         "
       >
         <router-link :to="{ name: 'Home' }">
-          <a class="mr-5 hover:text-gray-400">Home</a>
+          <a
+            class="
+              mr-5
+              p-2
+              hover:bg-yellow-300
+              rounded
+              transition
+              duration-500
+              ease-in-out
+              transform
+            "
+            >Home</a
+          >
         </router-link>
         <router-link :to="{ name: 'resorts' }">
-          <a class="mr-5 hover:text-gray-400">Resorts</a>
+          <a
+            class="
+              mr-5
+              p-2
+              hover:bg-yellow-300
+              rounded
+              transition
+              duration-500
+              ease-in-out
+              transform
+            "
+            >Resorts</a
+          >
         </router-link>
         <router-link :to="{ name: 'contact' }">
-          <a class="mr-5 hover:text-gray-400">Contact</a>
+          <a
+            class="
+              mr-5
+              p-2
+              hover:bg-yellow-300
+              rounded
+              transition
+              duration-500
+              ease-in-out
+              transform
+            "
+            >Contact</a
+          >
         </router-link>
         <router-link :to="{ name: 'about' }">
-          <a class="mr-5 hover:text-gray-400">About</a>
+          <a
+            class="
+              mr-5
+              p-2
+              hover:bg-yellow-300
+              rounded
+              transition
+              duration-500
+              ease-in-out
+              transform
+            "
+            >About</a
+          >
         </router-link>
         <router-link :to="{ name: 'signin' }" tag="button">
           <button
@@ -75,7 +113,6 @@
 </template>
 
 <script>
-// import SignIn from "../views/SignIn.vue";
 export default {
   name: "TabBar",
   components: {},

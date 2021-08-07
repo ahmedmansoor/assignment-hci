@@ -12,7 +12,7 @@
         lg:w-2/3
       "
     >
-      <img alt="" class="object-cover w-full h-full" />
+      <img class="object-cover w-full h-full" />
     </div>
     <div
       class="
@@ -23,12 +23,12 @@
         h-screen
         px-20
         bg-white
-        md:max-w-md
+        md:w-3/5
         lg:max-w-full
-        md:mx-auto md:w-1/2
+        md:mx-auto
       "
     >
-      <div class="w-full h-100">
+      <div class="h-100">
         <h1
           class="
             mt-8
@@ -65,7 +65,7 @@
             lg:px-8
           "
         >
-          <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 tracking-wide">
+          <div class="grid gap-2 grid-cols-3 tracking-wide">
             <div class="text-center content-center">
               <div
                 class="
@@ -77,7 +77,6 @@
                   mx-auto
                   mb-3
                   rounded-full
-                  bg-teal-accent-400
                   sm:w-12 sm:h-12
                 "
               >
@@ -85,9 +84,7 @@
                   src="https://img.icons8.com/fluency/96/000000/sunbathe.png"
                 />
               </div>
-              <h6 class="text-2xl font-semibold text-deep-purple-accent-400">
-                300
-              </h6>
+              <h6 class="text-2xl font-semibold">300</h6>
               <p class="mb-2 font-bold text-md">Resorts</p>
             </div>
             <div class="text-center">
@@ -96,12 +93,9 @@
                   flex
                   items-center
                   justify-center
-                  w-10
-                  h-10
                   mx-auto
                   mb-3
                   rounded-full
-                  bg-teal-accent-400
                   sm:w-12 sm:h-12
                 "
               >
@@ -109,9 +103,7 @@
                   src="https://img.icons8.com/fluency/96/000000/bungalow.png"
                 />
               </div>
-              <h6 class="text-2xl font-semibold text-deep-purple-accent-400">
-                660
-              </h6>
+              <h6 class="text-2xl font-semibold">660</h6>
               <p class="mb-2 font-bold text-md">Guesthouses</p>
             </div>
             <div class="text-center">
@@ -125,7 +117,6 @@
                   mx-auto
                   mb-3
                   rounded-full
-                  bg-teal-accent-400
                   sm:w-12 sm:h-12
                 "
               >
@@ -133,9 +124,7 @@
                   src="https://img.icons8.com/fluency/96/000000/5-star-hotel.png"
                 />
               </div>
-              <h6 class="text-2xl font-semibold text-deep-purple-accent-400">
-                120
-              </h6>
+              <h6 class="text-2xl font-semibold">120</h6>
               <p class="mb-2 font-bold text-md">Hotels</p>
             </div>
           </div>
