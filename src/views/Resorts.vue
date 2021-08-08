@@ -301,7 +301,7 @@
                 transform
                 tracking-wide
               "
-              >Check Availability</a
+              >View Packages</a
             >
           </div>
         </div>
@@ -493,7 +493,7 @@
                 transform
                 tracking-wide
               "
-              >Check Availability</a
+              >View Packages</a
             >
           </div>
         </div>
@@ -683,7 +683,7 @@
                 transform
                 tracking-wide
               "
-              >Check Availability</a
+              >View Packages</a
             >
           </div>
         </div>
@@ -873,7 +873,7 @@
                 transform
                 tracking-wide
               "
-              >Check Availability</a
+              >View Packages</a
             >
           </div>
         </div>
@@ -1064,7 +1064,7 @@
                 transform
                 tracking-wide
               "
-              >Check Availability</a
+              >View Packages</a
             >
           </div>
         </div>
@@ -1255,7 +1255,7 @@
                 transform
                 tracking-wide
               "
-              >Check Availability</a
+              >View Packages</a
             >
           </div>
         </div>

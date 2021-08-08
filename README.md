@@ -1,5 +1,5 @@
-### assignment-hci
+### HC! Assignment 2021
 
 ```
-Human Computer Interaction Assignment 2021 by Ahmed Mansoor
+Human Computer Interaction Assignment by Ahmed Mansoor
 ```
