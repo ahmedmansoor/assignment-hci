@@ -13,7 +13,7 @@
             font-sans
           "
         >
-          Popular Destonations
+          Popular Destinations
         </h1>
         <div class="h-1 w-60 bg-green-500"></div>
         <p class="leading-relaxed text-gray-500 mt-3">
@@ -48,16 +48,42 @@
           "
         >
           <div class="bg-resort1 bg-cover">
-            <a href="/" aria-label="Article"
-              ><img class="w-full h-64 rounded" alt=""
-            /></a>
+            <a><img class="w-full h-64 rounded" /></a>
           </div>
           <div class="pt-5">
-            <p class="mb-2 text-xs font-semibold text-gray-600 uppercase">
-              THAA ATOLL
-            </p>
+            <div class="flex flex-row">
+              <p
+                class="
+                  mt-1
+                  mr-2
+                  mb-2
+                  text-xs
+                  font-semibold
+                  text-gray-600
+                  uppercase
+                  align-text-bottom
+                "
+              >
+                THAA ATOLL
+              </p>
+              <p
+                class="
+                  max-w-lg
+                  text-xs
+                  font-bold
+                  px-2
+                  py-1
+                  rounded
+                  bg-green-200
+                  text-green-700
+                  mb-2
+                  tracking-wide
+                "
+              >
+                Resort
+              </p>
+            </div>
             <a
-              href="/"
               aria-label="Article"
               class="
                 inline-block
@@ -77,8 +103,6 @@
             </p>
             <div class="flex space-x-4">
               <a
-                href="/"
-                aria-label="Likes"
                 class="
                   items-start
                   text-gray-800
@@ -217,7 +241,6 @@
               </a>
               <div>
                 <a
-                  href="/"
                   aria-label="Comments"
                   class="
                     flex
@@ -281,16 +304,42 @@
           "
         >
           <div class="bg-resort4 bg-cover">
-            <a href="/" aria-label="Article"
-              ><img class="object-cover w-full h-64 rounded" alt=""
-            /></a>
+            <a><img class="object-cover w-full h-64 rounded" /></a>
           </div>
           <div class="pt-5">
-            <p class="mb-2 text-xs font-semibold text-gray-600 uppercase">
-              LAAMU ATOLL
-            </p>
+            <div class="flex flex-row">
+              <p
+                class="
+                  mt-1
+                  mr-2
+                  mb-2
+                  text-xs
+                  font-semibold
+                  text-gray-600
+                  uppercase
+                  align-text-bottom
+                "
+              >
+                LAAMU ATOLL
+              </p>
+              <p
+                class="
+                  max-w-lg
+                  text-xs
+                  font-bold
+                  px-2
+                  py-1
+                  rounded
+                  bg-green-200
+                  text-green-700
+                  mb-2
+                  tracking-wide
+                "
+              >
+                Guest House
+              </p>
+            </div>
             <a
-              href="/"
               aria-label="Article"
               class="
                 inline-block
@@ -310,8 +359,6 @@
             </p>
             <div class="flex space-x-4">
               <a
-                href="/"
-                aria-label="Likes"
                 class="
                   flex
                   items-start
@@ -450,7 +497,6 @@
                 <!-- <p class="font-semibold">7.4K</p> -->
               </a>
               <a
-                href="/"
                 aria-label="Comments"
                 class="
                   flex
@@ -511,16 +557,42 @@
           "
         >
           <div class="bg-resort3 bg-cover">
-            <a href="/" aria-label="Article"
-              ><img class="object-cover w-full h-64 rounded" alt=""
-            /></a>
+            <a><img class="object-cover w-full h-64 rounded" /></a>
           </div>
           <div class="pt-5">
-            <p class="mb-2 text-xs font-semibold text-gray-600 uppercase">
-              RASDHOO ATOLL
-            </p>
+            <div class="flex flex-row">
+              <p
+                class="
+                  mt-1
+                  mr-2
+                  mb-2
+                  text-xs
+                  font-semibold
+                  text-gray-600
+                  uppercase
+                  align-text-bottom
+                "
+              >
+                RASDHOO ATOLL
+              </p>
+              <p
+                class="
+                  max-w-lg
+                  text-xs
+                  font-bold
+                  px-2
+                  py-1
+                  rounded
+                  bg-green-200
+                  text-green-700
+                  mb-2
+                  tracking-wide
+                "
+              >
+                Guest House
+              </p>
+            </div>
             <a
-              href="/"
               aria-label="Article"
               class="
                 inline-block
@@ -540,8 +612,6 @@
             </p>
             <div class="flex space-x-4">
               <a
-                href="/"
-                aria-label="Likes"
                 class="
                   flex
                   items-start
@@ -682,7 +752,6 @@
                 <!-- <p class="font-semibold">7.4K</p> -->
               </a>
               <a
-                href="/"
                 aria-label="Comments"
                 class="
                   flex
@@ -744,16 +813,42 @@
           "
         >
           <div class="bg-resort1 bg-cover">
-            <a href="/" aria-label="Article"
-              ><img class="object-cover w-full h-64 rounded" alt=""
-            /></a>
+            <a><img class="object-cover w-full h-64 rounded" /></a>
           </div>
           <div class="pt-5">
-            <p class="mb-2 text-xs font-semibold text-gray-600 uppercase">
-              KAAFU ATOLL
-            </p>
+            <div class="flex flex-row">
+              <p
+                class="
+                  mt-1
+                  mr-2
+                  mb-2
+                  text-xs
+                  font-semibold
+                  text-gray-600
+                  uppercase
+                  align-text-bottom
+                "
+              >
+                KAAFU ATOLL
+              </p>
+              <p
+                class="
+                  max-w-lg
+                  text-xs
+                  font-bold
+                  px-2
+                  py-1
+                  rounded
+                  bg-green-200
+                  text-green-700
+                  mb-2
+                  tracking-wide
+                "
+              >
+                Resort
+              </p>
+            </div>
             <a
-              href="/"
               aria-label="Article"
               class="
                 inline-block
@@ -774,8 +869,6 @@
             </p>
             <div class="flex space-x-4">
               <a
-                href="/"
-                aria-label="Likes"
                 class="
                   flex
                   items-start
@@ -913,7 +1006,6 @@
                 </div>
               </a>
               <a
-                href="/"
                 aria-label="Comments"
                 class="
                   flex
