@@ -29,8 +29,9 @@
         class="
           grid
           gap-2
-          lg:grid-cols-4
-          md:grid-cols-3
+          xl:grid-cols-4
+          lg:grid-cols-3
+          md:grid-cols-2
           sm:max-w-sm sm:mx-auto
           lg:max-w-full
         "
@@ -68,7 +69,7 @@
               </p>
               <p
                 class="
-                  max-w-lg
+                  max-w-max
                   text-xs
                   font-bold
                   px-2
@@ -324,7 +325,7 @@
               </p>
               <p
                 class="
-                  max-w-lg
+                  max-w-max
                   text-xs
                   font-bold
                   px-2
@@ -573,11 +574,11 @@
                   align-text-bottom
                 "
               >
-                RASDHOO ATOLL
+                rasdhoo atoll
               </p>
               <p
                 class="
-                  max-w-lg
+                  max-w-max
                   text-xs
                   font-bold
                   px-2
@@ -833,7 +834,7 @@
               </p>
               <p
                 class="
-                  max-w-lg
+                  max-w-max
                   text-xs
                   font-bold
                   px-2

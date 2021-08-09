@@ -1,12 +1,12 @@
 <template>
-  <header class="body-font px-16 tracking-wide">
+  <header class="body-font md:px-12 xl:px-16 tracking-wide">
     <div class="container flex flex-wrap p-5 flex-col md:flex-row items-center">
       <router-link :to="{ name: 'Home' }" tag="button">
         <a class="flex font-medium items-center text-gray-900 mb-4 md:mb-0">
-          <img
+          <!-- <img
             width="60"
             src="https://img.icons8.com/clouds/100/000000/beach.png"
-          />
+          /> -->
           <span class="ml-3 mb-1 font-black font-sans sm:text-xl lg:text-2xl"
             >Maldives Bookings</span
           >
