@@ -69,20 +69,17 @@
               >
               <input
                 type="text"
-                id="name"
-                name="name"
+                placeholder="Full Name"
                 class="
                   w-full
-                  bg-gray-100 bg-opacity-50
                   rounded
+                  bg-gray-100 bg-opacity-50
                   border-2 border-gray-300
-                  focus:border-green-500
-                  focus:bg-white
+                  focus:border-green-500 focus:bg-white focus:ring-green-200
+                  text-gray-700
                   focus:ring-2
-                  focus:ring-green-200
                   text-base
                   outline-none
-                  text-gray-700
                   py-1
                   px-3
                   leading-8
@@ -100,8 +97,7 @@
               >
               <input
                 type="email"
-                id="email"
-                name="email"
+                placeholder="Email Address"
                 class="
                   w-full
                   bg-gray-100 bg-opacity-50

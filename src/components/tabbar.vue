@@ -29,7 +29,7 @@
               p-2
               mx-2
               mt-2
-              hover:bg-yellow-300
+              hover:bg-yellow-100 hover:text-yellow-500
               rounded
               transition
               duration-300
@@ -47,7 +47,7 @@
               p-2
               mx-2
               mt-2
-              hover:bg-yellow-300
+              hover:bg-yellow-100 hover:text-yellow-500
               rounded
               transition
               duration-300
@@ -65,7 +65,7 @@
               p-2
               mx-2
               mt-2
-              hover:bg-yellow-300
+              hover:bg-yellow-100 hover:text-yellow-500
               rounded
               transition
               duration-300
@@ -83,7 +83,7 @@
               p-2
               mx-2
               mt-2
-              hover:bg-yellow-300
+              hover:bg-yellow-100 hover:text-yellow-500
               rounded
               transition
               duration-300
@@ -101,7 +101,7 @@
               p-2
               mx-2
               mt-2
-              hover:bg-yellow-300
+              hover:bg-yellow-100 hover:text-yellow-500
               rounded
               transition
               duration-300
@@ -126,7 +126,7 @@
               py-1
               px-3
               focus:outline-none
-              hover:bg-yellow-400
+              hover:bg-yellow-200
               rounded
               text-base
               md:mt-0

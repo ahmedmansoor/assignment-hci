@@ -50,12 +50,14 @@
             height="24"
           ></rect>
         </svg>
-        <span class="relative">The most Prestigious </span>
+        <span class="relative">The most Embracing </span>
       </span>
-      Destinations in the Maldives
+      Guesthouses in the Maldives
+      <div class="h-1 mt-2 w-60 bg-green-500"></div>
     </h2>
+
     <p class="text-base text-gray-700 md:text-lg">
-      There is something for everyone in these exotic paradises.
+      There is something for everyone in these local destinations.
     </p>
     <div
       class="
@@ -67,19 +69,20 @@
       "
     >
       <input
-        id="search"
         type="text"
         class="
-          min-w-max
-          px-6
+          min-w-full
+          px-2
           py-2
-          text-gray-900
-          bg-white
-          border border-gray-300
           rounded
-          focus:border-green-500 focus:outline-none focus:ring
+          focus:outline-none focus:ring
+          bg-gray-100 bg-opacity-50
+          border-2 border-gray-300
+          focus:border-green-500 focus:bg-white focus:ring-green-200
+          text-gray-700
+          tracking-wide
         "
-        placeholder="Search for Guest Houses"
+        placeholder="Search for Guesthouses"
       />
 
       <button

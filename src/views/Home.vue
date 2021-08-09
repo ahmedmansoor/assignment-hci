@@ -1,7 +1,6 @@
 <template>
   <section class="text-gray-800 bg-emptybeach bg-cover bg-top bg-no-repeat">
     <TabBar></TabBar>
-    <!-- <div class="bg-white bg-opacity-5"> -->
     <div class="flex flex-col px-10 py-20 mx-auto lg:items-center">
       <div class="flex flex-col w-full mx-auto mb-12 text-left lg:text-center">
         <h1

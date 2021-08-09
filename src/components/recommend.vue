@@ -75,10 +75,10 @@
                   px-2
                   py-1
                   rounded
-                  bg-green-200
-                  text-green-700
+                  bg-green-100
+                  text-green-500
                   mb-2
-                  tracking-wide
+                  tracking-wider
                 "
               >
                 Resort
@@ -92,7 +92,7 @@
                 text-black
                 transition-colors
                 duration-200
-                hover:text-deep-purple-accent-700
+                hover:text-yellow-500
               "
               ><p class="text-2xl font-bold leading-5">Bandos Maldives</p></a
             >
@@ -109,7 +109,7 @@
                   text-gray-800
                   transition-colors
                   duration-200
-                  hover:text-deep-purple-accent-700
+                  hover:text-yellow-500
                   group
                 "
               >
@@ -130,7 +130,7 @@
                       bg-yellow-200
                       transition-colors
                       duration-200
-                      group-hover:text-deep-purple-accent-700
+                      group-hover:text-yellow-500
                     "
                   >
                     <polygon
@@ -155,7 +155,7 @@
                       bg-yellow-200
                       transition-colors
                       duration-200
-                      group-hover:text-deep-purple-accent-700
+                      group-hover:text-yellow-500
                     "
                   >
                     <polygon
@@ -180,7 +180,7 @@
                       bg-yellow-200
                       transition-colors
                       duration-200
-                      group-hover:text-deep-purple-accent-700
+                      group-hover:text-yellow-500
                     "
                   >
                     <polygon
@@ -205,7 +205,7 @@
                       bg-yellow-200
                       transition-colors
                       duration-200
-                      group-hover:text-deep-purple-accent-700
+                      group-hover:text-yellow-500
                     "
                   >
                     <polygon
@@ -229,7 +229,7 @@
                       text-gray-600
                       transition-colors
                       duration-200
-                      group-hover:text-deep-purple-accent-700
+                      group-hover:text-yellow-500
                     "
                   >
                     <polygon
@@ -249,7 +249,7 @@
                     text-gray-800
                     transition-colors
                     duration-200
-                    hover:text-deep-purple-accent-700
+                    hover:text-yellow-500
                     group
                   "
                 >
@@ -269,7 +269,7 @@
                         text-gray-600
                         transition-colors
                         duration-200
-                        group-hover:text-deep-purple-accent-700
+                        group-hover:text-yellow-500
                       "
                     >
                       <polyline
@@ -331,13 +331,13 @@
                   px-2
                   py-1
                   rounded
-                  bg-green-200
-                  text-green-700
+                  bg-green-100
+                  text-green-500
                   mb-2
-                  tracking-wide
+                  tracking-wider
                 "
               >
-                Guest House
+                Guesthouse
               </p>
             </div>
             <a
@@ -348,7 +348,7 @@
                 text-black
                 transition-colors
                 duration-200
-                hover:text-deep-purple-accent-700
+                hover:text-yellow-500
               "
               ><p class="text-2xl font-bold leading-5">Cinnamon Dhonveli</p></a
             >
@@ -366,7 +366,7 @@
                   text-gray-800
                   transition-colors
                   duration-200
-                  hover:text-deep-purple-accent-700
+                  hover:text-yellow-500
                   group
                 "
               >
@@ -387,7 +387,7 @@
                       bg-yellow-200
                       transition-colors
                       duration-200
-                      group-hover:text-deep-purple-accent-700
+                      group-hover:text-yellow-500
                     "
                   >
                     <polygon
@@ -412,7 +412,7 @@
                       bg-yellow-200
                       transition-colors
                       duration-200
-                      group-hover:text-deep-purple-accent-700
+                      group-hover:text-yellow-500
                     "
                   >
                     <polygon
@@ -437,7 +437,7 @@
                       bg-yellow-200
                       transition-colors
                       duration-200
-                      group-hover:text-deep-purple-accent-700
+                      group-hover:text-yellow-500
                     "
                   >
                     <polygon
@@ -461,7 +461,7 @@
                       text-gray-600
                       transition-colors
                       duration-200
-                      group-hover:text-deep-purple-accent-700
+                      group-hover:text-yellow-500
                     "
                   >
                     <polygon
@@ -485,7 +485,7 @@
                       text-gray-600
                       transition-colors
                       duration-200
-                      group-hover:text-deep-purple-accent-700
+                      group-hover:text-yellow-500
                     "
                   >
                     <polygon
@@ -505,7 +505,7 @@
                   text-gray-800
                   transition-colors
                   duration-200
-                  hover:text-deep-purple-accent-700
+                  hover:text-yellow-500
                   group
                 "
               >
@@ -525,7 +525,7 @@
                       text-gray-600
                       transition-colors
                       duration-200
-                      group-hover:text-deep-purple-accent-700
+                      group-hover:text-yellow-500
                     "
                   >
                     <polyline
@@ -584,13 +584,13 @@
                   px-2
                   py-1
                   rounded
-                  bg-green-200
-                  text-green-700
+                  bg-green-100
+                  text-green-500
                   mb-2
-                  tracking-wide
+                  tracking-wider
                 "
               >
-                Guest House
+                Guesthouse
               </p>
             </div>
             <a
@@ -601,7 +601,7 @@
                 text-black
                 transition-colors
                 duration-200
-                hover:text-deep-purple-accent-700
+                hover:text-yellow-500
               "
               ><p class="text-2xl font-bold leading-5">Kuramathi Maldives</p></a
             >
@@ -619,7 +619,7 @@
                   text-gray-800
                   transition-colors
                   duration-200
-                  hover:text-deep-purple-accent-700
+                  hover:text-yellow-500
                   group
                 "
               >
@@ -640,7 +640,7 @@
                       bg-yellow-200
                       transition-colors
                       duration-200
-                      group-hover:text-deep-purple-accent-700
+                      group-hover:text-yellow-500
                     "
                   >
                     <polygon
@@ -665,7 +665,7 @@
                       bg-yellow-200
                       transition-colors
                       duration-200
-                      group-hover:text-deep-purple-accent-700
+                      group-hover:text-yellow-500
                     "
                   >
                     <polygon
@@ -690,7 +690,7 @@
                       bg-yellow-200
                       transition-colors
                       duration-200
-                      group-hover:text-deep-purple-accent-700
+                      group-hover:text-yellow-500
                     "
                   >
                     <polygon
@@ -715,7 +715,7 @@
                       bg-yellow-200
                       transition-colors
                       duration-200
-                      group-hover:text-deep-purple-accent-700
+                      group-hover:text-yellow-500
                     "
                   >
                     <polygon
@@ -740,7 +740,7 @@
                       bg-yellow-200
                       transition-colors
                       duration-200
-                      group-hover:text-deep-purple-accent-700
+                      group-hover:text-yellow-500
                     "
                   >
                     <polygon
@@ -760,7 +760,7 @@
                   text-gray-800
                   transition-colors
                   duration-200
-                  hover:text-deep-purple-accent-700
+                  hover:text-yellow-500
                   group
                 "
               >
@@ -780,7 +780,7 @@
                       text-gray-600
                       transition-colors
                       duration-200
-                      group-hover:text-deep-purple-accent-700
+                      group-hover:text-yellow-500
                     "
                   >
                     <polyline
@@ -840,10 +840,10 @@
                   px-2
                   py-1
                   rounded
-                  bg-green-200
-                  text-green-700
+                  bg-green-100
+                  text-green-500
                   mb-2
-                  tracking-wide
+                  tracking-wider
                 "
               >
                 Resort
@@ -857,7 +857,7 @@
                 text-black
                 transition-colors
                 duration-200
-                hover:text-deep-purple-accent-700
+                hover:text-yellow-500
               "
             >
               <p class="text-2xl font-bold leading-5">Ayada Maldives</p>
@@ -876,7 +876,7 @@
                   text-gray-800
                   transition-colors
                   duration-200
-                  hover:text-deep-purple-accent-700
+                  hover:text-yellow-500
                   group
                 "
               >
@@ -897,7 +897,7 @@
                       bg-yellow-200
                       transition-colors
                       duration-200
-                      group-hover:text-deep-purple-accent-700
+                      group-hover:text-yellow-500
                     "
                   >
                     <polygon
@@ -922,7 +922,7 @@
                       bg-yellow-200
                       transition-colors
                       duration-200
-                      group-hover:text-deep-purple-accent-700
+                      group-hover:text-yellow-500
                     "
                   >
                     <polygon
@@ -947,7 +947,7 @@
                       bg-yellow-200
                       transition-colors
                       duration-200
-                      group-hover:text-deep-purple-accent-700
+                      group-hover:text-yellow-500
                     "
                   >
                     <polygon
@@ -971,7 +971,7 @@
                       text-gray-600
                       transition-colors
                       duration-200
-                      group-hover:text-deep-purple-accent-700
+                      group-hover:text-yellow-500
                     "
                   >
                     <polygon
@@ -995,7 +995,7 @@
                       text-gray-600
                       transition-colors
                       duration-200
-                      group-hover:text-deep-purple-accent-700
+                      group-hover:text-yellow-500
                     "
                   >
                     <polygon
@@ -1014,7 +1014,7 @@
                   text-gray-800
                   transition-colors
                   duration-200
-                  hover:text-deep-purple-accent-700
+                  hover:text-yellow-500
                   group
                 "
               >
@@ -1034,7 +1034,7 @@
                       text-gray-600
                       transition-colors
                       duration-200
-                      group-hover:text-deep-purple-accent-700
+                      group-hover:text-yellow-500
                     "
                   >
                     <polyline
