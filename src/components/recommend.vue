@@ -1,7 +1,7 @@
 <template>
   <div class="container px-16 mx-auto">
     <div>
-      <div class="container px-8 py-16 mx-auto">
+      <div class="container px-8 mx-auto">
         <h1
           class="
             sm:text-3xl
@@ -23,7 +23,15 @@
       </div>
     </div>
     <div
-      class="px-4 mb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl"
+      class="
+        px-4
+        mb-16
+        mx-auto
+        sm:max-w-xl
+        md:max-w-full
+        lg:max-w-screen-xl
+        py-10
+      "
     >
       <div
         class="

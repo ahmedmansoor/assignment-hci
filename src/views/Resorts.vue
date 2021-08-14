@@ -1,6 +1,6 @@
 <template>
   <TabBar></TabBar>
-  <div class="max-w-xl md:mx-auto sm:text-center lg:max-w-2xl mt-16">
+  <div class="max-w-xl md:mx-auto sm:text-center lg:max-w-2xl mt-5 py-10">
     <h2
       class="
         max-w-lg
@@ -71,6 +71,7 @@
           min-w-full
           px-2
           py-1
+          h-10
           rounded
           focus:outline-none focus:ring
           bg-gray-100 bg-opacity-50
@@ -91,6 +92,7 @@
           lg:w-auto lg:mx-4
           block
           w-full
+          h-10
           mt-6
           font-semibold
           rounded

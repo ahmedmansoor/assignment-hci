@@ -1,5 +1,5 @@
 <template>
-  <header class="body-font md:px-12 xl:px-16 tracking-wide z-50">
+  <header class="body-font md:px-12 xl:px-16 tracking-wide">
     <div class="hidden lg:block">
       <div
         class="container flex flex-wrap p-5 flex-col md:flex-row items-center"
@@ -146,9 +146,10 @@
     </div>
     <!-- mobile -->
     <Popover>
-      <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
+      <div class="relative pt-6 px-4 sm:px-6 lg:px-8 lg:hidden">
         <nav
           class="
+            lg:hidden
             relative
             flex
             items-center
@@ -166,7 +167,7 @@
                   class="h-8 w-auto sm:h-10"
                   src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
                 /> -->
-                <span class="ml-3 mb-1 font-black font-sans text-2xl"
+                <span class="ml-3 mb-1 font-black font-sans text-2xl lg:hidden"
                   >Maldives Bookings</span
                 >
               </a>
@@ -215,6 +216,7 @@
             transform
             origin-top-right
             lg:hidden
+            z-10
           "
         >
           <div
@@ -229,7 +231,7 @@
               border-2 border-gray-400
             "
           >
-            <div class="px-5 pt-4 flex items-center justify-between z-50">
+            <div class="px-5 pt-4 flex items-center justify-between">
               <div>
                 <!-- <img
                   class="h-8 w-auto"

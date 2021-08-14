@@ -1,7 +1,7 @@
 <template>
   <TabBar></TabBar>
-  <section class="text-gray-600 body-font relative mx-10 sm:mx-16">
-    <div class="container px-5 py-24 mx-auto">
+  <section class="text-gray-600 body-font relative mx-5 sm:mx-16">
+    <div class="container px-5 py-5 mx-auto mb-10">
       <div class="flex flex-col text-center w-full mb-12">
         <h2
           class="
@@ -82,6 +82,7 @@
                   outline-none
                   py-1
                   px-3
+                  h-10
                   leading-8
                   transition-colors
                   duration-200
@@ -112,6 +113,7 @@
                   text-gray-700
                   py-1
                   px-3
+                  h-10
                   leading-8
                   transition-colors
                   duration-200

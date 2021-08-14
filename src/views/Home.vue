@@ -2,8 +2,18 @@
   <!-- <section class="text-gray-800 bg-emptybeach bg-cover bg-top bg-no-repeat"> -->
   <section class="text-gray-800">
     <TabBar></TabBar>
-    <div class="flex flex-col px-10 py-20 mx-auto lg:items-center">
-      <div class="flex flex-col w-full mx-auto mb-12 text-left lg:text-center">
+    <div class="flex flex-col py-20 lg:py-10 mx-auto lg:items-center">
+      <div
+        class="
+          flex flex-col
+          px-16
+          w-full
+          mx-auto
+          mb-12
+          text-left
+          lg:text-center
+        "
+      >
         <h1
           class="
             mb-6
@@ -31,21 +41,11 @@
           Maldives accommodation & save up to 60% on hotel booking online.
         </p>
       </div>
-      <p class="font-bold text-2xl text-gray-800">
+      <p class="font-bold text-2xl text-gray-800 px-16">
         Search for available resorts
       </p>
       <div
-        class="
-          p-5
-          flex flex-col
-          w-full
-          px-0
-          md:px-8
-          mx-auto
-          sm:flex-row
-          justify-center
-          self-center
-        "
+        class="p-5 flex flex-col w-full md:flex-row justify-center self-center"
       >
         <div class="bg-white rounded">
           <DatePicker v-model="range" mode="dateTime" :masks="masks" is-range>
@@ -53,13 +53,14 @@
               <div
                 class="
                   flex flex-col
-                  sm:flex-row
+                  md:flex-row
                   items-center
                   justify-items-center justify-between
                   p-3
+                  w-full
                 "
               >
-                <div class="relative flex-grow">
+                <div class="relative flex-grow w-full md:w-auto">
                   <svg
                     class="
                       text-gray-600
@@ -89,7 +90,9 @@
                       bg-gray-100
                       border-2
                       rounded
+                      h-10
                       w-full
+                      tracking-wide
                     "
                     :class="isDragging ? 'text-gray-600' : 'text-gray-900'"
                     :value="inputValue.start"
@@ -109,7 +112,7 @@
                     />
                   </svg>
                 </span>
-                <div class="relative flex-grow">
+                <div class="relative flex-grow w-full md:w-auto">
                   <svg
                     class="
                       text-gray-600
@@ -140,6 +143,8 @@
                       border-2
                       rounded
                       w-full
+                      h-10
+                      tracking-wide
                     "
                     :class="isDragging ? 'text-gray-600' : 'text-gray-900'"
                     :value="inputValue.end"
@@ -148,18 +153,14 @@
                 </div>
                 <button
                   class="
-                    mt-3
-                    sm:mt-0
-                    ml-4
+                    mt-5
+                    md:mt-0 md:ml-4
                     flex
                     justify-center
                     self-center
                     items-center
-                    h-9
+                    h-10
                     px-6
-                    py-2
-                    w-60
-                    sm:max-w-max
                     text-gray-700
                     font-semibold
                     transition
@@ -172,6 +173,8 @@
                     hover:bg-yellow-400
                     focus:shadow-outline focus:outline-none focus:ring-2
                     ring-offset-current ring-offset-2
+                    w-full
+                    md:w-auto
                   "
                 >
                   Search
