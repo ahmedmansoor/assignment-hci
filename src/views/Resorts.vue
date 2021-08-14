@@ -23,8 +23,6 @@
             absolute
             top-0
             left-0
-            z-0
-            hidden
             w-32
             -mt-8
             -ml-20
@@ -72,7 +70,7 @@
         class="
           min-w-full
           px-2
-          py-2
+          py-1
           rounded
           focus:outline-none focus:ring
           bg-gray-100 bg-opacity-50
@@ -85,6 +83,7 @@
 
       <button
         class="
+          py-1
           px-4
           tracking-wider
           text-white
