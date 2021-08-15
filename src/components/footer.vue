@@ -134,7 +134,7 @@
                     duration-300
                     hover:text-deep-purple-accent-200
                   "
-                  >Brochure</a
+                  >Brochures</a
                 >
               </li>
             </ul>
@@ -150,6 +150,7 @@
               required=""
               type="text"
               class="
+                h-10
                 flex-grow
                 w-full
                 py-2
@@ -171,6 +172,7 @@
             <button
               type="submit"
               class="
+                h-10
                 inline-flex
                 items-center
                 justify-center

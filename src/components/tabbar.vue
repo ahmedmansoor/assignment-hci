@@ -1,8 +1,8 @@
 <template>
-  <header class="body-font md:px-12 xl:px-16 tracking-wide">
+  <header class="body-font md:px-12 xl:px-16 tracking-wide shadow-md">
     <div class="hidden lg:block">
       <div
-        class="container flex flex-wrap p-5 flex-col md:flex-row items-center"
+        class="container flex flex-wrap p-4 flex-col md:flex-row items-center"
       >
         <router-link :to="{ name: 'Home' }" tag="button">
           <a class="flex font-medium items-center text-gray-900 mb-4 md:mb-0">
@@ -32,7 +32,8 @@
                 p-2
                 mx-2
                 mt-2
-                hover:bg-yellow-100 hover:text-yellow-500
+                bg-yellow-100
+                text-yellow-700
                 rounded
                 transition
                 duration-300
@@ -50,7 +51,7 @@
                 p-2
                 mx-2
                 mt-2
-                hover:bg-yellow-100 hover:text-yellow-500
+                hover:bg-yellow-100 hover:text-yellow-700
                 rounded
                 transition
                 duration-300
@@ -68,7 +69,7 @@
                 p-2
                 mx-2
                 mt-2
-                hover:bg-yellow-100 hover:text-yellow-500
+                hover:bg-yellow-100 hover:text-yellow-700
                 rounded
                 transition
                 duration-300
@@ -86,7 +87,7 @@
                 p-2
                 mx-2
                 mt-2
-                hover:bg-yellow-100 hover:text-yellow-500
+                hover:bg-yellow-100 hover:text-yellow-700
                 rounded
                 transition
                 duration-300
@@ -104,7 +105,7 @@
                 p-2
                 mx-2
                 mt-2
-                hover:bg-yellow-100 hover:text-yellow-500
+                hover:bg-yellow-100 hover:text-yellow-700
                 rounded
                 transition
                 duration-300
@@ -146,7 +147,7 @@
     </div>
     <!-- mobile -->
     <Popover>
-      <div class="relative pt-6 px-4 sm:px-6 lg:px-8 lg:hidden">
+      <div class="relative py-3 px-4 sm:px-6 lg:px-8 lg:hidden">
         <nav
           class="
             lg:hidden
@@ -216,7 +217,7 @@
             transform
             origin-top-right
             lg:hidden
-            z-10
+            z-50
           "
         >
           <div
@@ -277,7 +278,7 @@
                   text-base
                   font-medium
                   text-gray-700
-                  hover:bg-yellow-100 hover:text-yellow-500
+                  hover:bg-yellow-100 hover:text-yellow-700
                 "
                 >{{ item.name }}</a
               >
@@ -417,11 +418,11 @@
 </template>
 
 <script>
-import { Popover, PopoverButton, PopoverPanel } from "@headlessui/vue";
-import { MenuIcon, XIcon } from "@heroicons/vue/outline";
+import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue';
+import { MenuIcon, XIcon } from '@heroicons/vue/outline';
 
 export default {
-  name: "TabBar",
+  name: 'TabBar',
   components: {
     Popover,
     PopoverButton,

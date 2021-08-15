@@ -1,6 +1,17 @@
 <template>
   <TabBar></TabBar>
-  <div class="max-w-xl mx-10 md:mx-auto sm:text-center py-10 lg:max-w-2xl mt-5">
+  <div
+    class="
+      max-w-xl
+      mx-10
+      md:mx-auto
+      sm:text-center
+      py-16
+      pb-6
+      lg:max-w-2xl
+      mt-5
+    "
+  >
     <h2
       class="
         max-w-lg
@@ -23,7 +34,6 @@
             absolute
             top-0
             left-0
-            z-0
             hidden
             w-32
             -mt-8
@@ -68,18 +78,22 @@
         justify-center
       "
     >
+      <!-- dropdpwn -->
+      <DropDown></DropDown>
+
       <input
         type="text"
         class="
-          min-w-full
-          h-10
+          w-full
           px-2
-          py-2
+          py-1
+          lg:ml-4
+          h-10
           rounded
-          focus:outline-none focus:ring
+          focus:outline-none
           bg-gray-100 bg-opacity-50
           border-2 border-gray-300
-          focus:border-green-500 focus:bg-white focus:ring-green-200
+          focus:border-green-500 focus:bg-white
           text-gray-700
           tracking-wide
         "
@@ -297,7 +311,7 @@
                 items-center
                 font-semibold
                 transition-colors
-                hover:bg-green-500
+                hover:bg-gray-300
                 duration-300
                 p-2
                 bg-gray-200
@@ -305,6 +319,9 @@
                 ease-in-out
                 transform
                 tracking-wide
+                cursor-pointer
+                w-full
+                justify-center
               "
               >View Packages</a
             >
@@ -489,7 +506,7 @@
                 items-center
                 font-semibold
                 transition-colors
-                hover:bg-green-500
+                hover:bg-gray-300
                 duration-300
                 p-2
                 bg-gray-200
@@ -497,6 +514,9 @@
                 ease-in-out
                 transform
                 tracking-wide
+                cursor-pointer
+                w-full
+                justify-center
               "
               >View Packages</a
             >
@@ -679,7 +699,7 @@
                 items-center
                 font-semibold
                 transition-colors
-                hover:bg-green-500
+                hover:bg-gray-300
                 duration-300
                 p-2
                 bg-gray-200
@@ -687,6 +707,9 @@
                 ease-in-out
                 transform
                 tracking-wide
+                cursor-pointer
+                w-full
+                justify-center
               "
               >View Packages</a
             >
@@ -869,7 +892,7 @@
                 items-center
                 font-semibold
                 transition-colors
-                hover:bg-green-500
+                hover:bg-gray-300
                 duration-300
                 p-2
                 bg-gray-200
@@ -877,6 +900,9 @@
                 ease-in-out
                 transform
                 tracking-wide
+                cursor-pointer
+                w-full
+                justify-center
               "
               >View Packages</a
             >
@@ -1060,7 +1086,7 @@
                 items-center
                 font-semibold
                 transition-colors
-                hover:bg-green-500
+                hover:bg-gray-300
                 duration-300
                 p-2
                 bg-gray-200
@@ -1068,6 +1094,9 @@
                 ease-in-out
                 transform
                 tracking-wide
+                cursor-pointer
+                w-full
+                justify-center
               "
               >View Packages</a
             >
@@ -1251,7 +1280,7 @@
                 items-center
                 font-semibold
                 transition-colors
-                hover:bg-green-500
+                hover:bg-gray-300
                 duration-300
                 p-2
                 bg-gray-200
@@ -1259,6 +1288,9 @@
                 ease-in-out
                 transform
                 tracking-wide
+                cursor-pointer
+                w-full
+                justify-center
               "
               >View Packages</a
             >
@@ -1280,12 +1312,14 @@
 </template>
 
 <script>
-import TabBar from "../components/tabbar.vue";
+import TabBar from '../components/tabbar.vue';
+import DropDown from '../components/dropDown.vue';
 
 export default {
-  name: "Guesthouses",
+  name: 'Guesthouses',
   components: {
     TabBar,
+    DropDown,
   },
 };
 </script>

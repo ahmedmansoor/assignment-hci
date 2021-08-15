@@ -5,6 +5,7 @@
     <div class="flex flex-col py-20 lg:py-10 mx-auto lg:items-center">
       <div
         class="
+          py-10
           flex flex-col
           px-16
           w-full
@@ -161,13 +162,13 @@
                     items-center
                     h-10
                     px-6
-                    text-gray-700
                     font-semibold
                     transition
                     duration-300
                     ease-in-out
                     transform
                     rounded
+                    text-gray-700
                     bg-yellow-300
                     border-yellow-400 border-2
                     hover:bg-yellow-400

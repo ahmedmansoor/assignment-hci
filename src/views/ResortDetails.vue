@@ -1,16 +1,15 @@
 <template>
   <TabBar></TabBar>
-
   <div
     class="
-      bg-white
       dark:bg-gray-800
       overflow-hidden
       relative
       lg:flex lg:items-center
+      flex-row
     "
   >
-    <div class="w-full py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
+    <div class="py-12 px-16 lg:py-16 w-3/4">
       <h2
         class="text-3xl font-extrabold text-black dark:text-white sm:text-4xl"
       >
@@ -60,7 +59,18 @@
       </div>
     </div>
     <div
-      class="items-center p-8 lg:p-24 w-full h-full grid gap-4 lg:grid-cols-2"
+      class="
+        px-10
+        md:px-0
+        items-center
+        p-8
+        lg:p-24
+        w-full
+        h-full
+        grid
+        gap-4
+        lg:grid-cols-2
+      "
     >
       <div class="bg-center bg-cover bg-black w-full h-full rounded">
         <img class="rounded object-cover h-96" />
@@ -78,10 +88,10 @@
 </template>
 
 <script>
-import TabBar from "../components/tabbar.vue";
+import TabBar from '../components/tabbar.vue';
 
 export default {
-  name: "ResortDetails",
+  name: 'ResortDetails',
   components: {
     TabBar,
   },

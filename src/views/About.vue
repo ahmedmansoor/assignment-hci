@@ -21,23 +21,22 @@
         justify-center
         w-full
         h-screen
-        px-20
-        bg-white
-        md:w-3/5
+        px-16
+        md:px-10 md:w-3/5
         lg:max-w-full
-        md:mx-auto
+        md:mx-10
       "
     >
       <div class="h-100">
         <h1
           class="
+            pt-20
             mt-8
             mb-5
             sm:text-3xl
             text-2xl
             font-black
             text-black
-            tracking-ringtighter
             title-font
             font-sans
           "
@@ -53,19 +52,19 @@
           growth in the local tourism industry to deliver long term economic,
           social and cultural benefits to the country.
         </p>
+        <!-- stats -->
         <div
           class="
             px-4
             py-16
             mx-auto
             sm:max-w-xl
-            md:max-w-full
             lg:max-w-screen-xl
-            md:px-24
+            md:px-16
             lg:px-8
           "
         >
-          <div class="grid gap-2 grid-cols-3 tracking-wide">
+          <div class="grid gap-2 grid-cols-1 md:grid-cols-3 tracking-wide">
             <div class="text-center content-center">
               <div
                 class="
@@ -93,6 +92,8 @@
                   flex
                   items-center
                   justify-center
+                  w-10
+                  h-10
                   mx-auto
                   mb-3
                   rounded-full

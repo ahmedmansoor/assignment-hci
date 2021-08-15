@@ -1,6 +1,18 @@
 <template>
   <TabBar></TabBar>
-  <div class="max-w-xl md:mx-auto sm:text-center lg:max-w-2xl mt-5 py-10">
+
+  <div
+    class="
+      max-w-xl
+      mx-10
+      md:mx-auto
+      sm:text-center
+      py-16
+      pb-6
+      lg:max-w-2xl
+      mt-5
+    "
+  >
     <h2
       class="
         max-w-lg
@@ -65,19 +77,23 @@
         justify-center
       "
     >
+      <!-- dropdpwn -->
+      <DropDown></DropDown>
       <input
         type="text"
         class="
-          min-w-full
+          w-full
           px-2
           py-1
+          lg:ml-4
           h-10
           rounded
-          focus:outline-none focus:ring
+          focus:outline-none
           bg-gray-100 bg-opacity-50
           border-2 border-gray-300
-          focus:border-green-500 focus:bg-white focus:ring-green-200
+          focus:border-green-500 focus:bg-white
           text-gray-700
+          tracking-wide
         "
         placeholder="Search for Resorts"
       />
@@ -301,6 +317,9 @@
                   ease-in-out
                   transform
                   tracking-wide
+                  cursor-pointer
+                  w-full
+                  justify-center
                 "
                 >View Packages</a
               >
@@ -494,6 +513,9 @@
                   ease-in-out
                   transform
                   tracking-wide
+                  cursor-pointer
+                  w-full
+                  justify-center
                 "
                 >View Packages</a
               >
@@ -685,6 +707,9 @@
                   ease-in-out
                   transform
                   tracking-wide
+                  cursor-pointer
+                  w-full
+                  justify-center
                 "
                 >View Packages</a
               >
@@ -876,6 +901,9 @@
                   ease-in-out
                   transform
                   tracking-wide
+                  cursor-pointer
+                  w-full
+                  justify-center
                 "
                 >View Packages</a
               >
@@ -1067,6 +1095,9 @@
                 ease-in-out
                 transform
                 tracking-wide
+                cursor-pointer
+                w-full
+                justify-center
               "
               >View Packages</a
             >
@@ -1258,6 +1289,9 @@
                   ease-in-out
                   transform
                   tracking-wide
+                  cursor-pointer
+                  w-full
+                  justify-center
                 "
                 >View Packages</a
               >
@@ -1280,12 +1314,14 @@
 </template>
 
 <script>
-import TabBar from "../components/tabbar.vue";
+import TabBar from '../components/tabbar.vue';
+import DropDown from '../components/dropDown.vue';
 
 export default {
-  name: "Resorts",
+  name: 'Resorts',
   components: {
     TabBar,
+    DropDown,
   },
 };
 </script>
