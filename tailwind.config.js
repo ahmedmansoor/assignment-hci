@@ -32,6 +32,7 @@ module.exports = {
     extend: {
       textDecoration: ["active"],
       backgroundColor: ["active"],
+      border: ["active"],
     },
   },
   plugins: [],

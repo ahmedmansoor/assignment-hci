@@ -150,12 +150,7 @@
         <div class="p-5 border border-t-0">
           <p class="mb-2 text-xs font-semibold tracking-wide uppercase">
             <a
-              class="
-                transition-colors
-                duration-300
-                text-green-600
-                hover:text-deep-purple-accent-700
-              "
+              class="transition-colors duration-300 text-gray-500"
               aria-label="Category"
               >kaafu atoll</a
             >
@@ -310,9 +305,10 @@
                   font-semibold
                   transition-colors
                   hover:bg-gray-300
+                  text-gray-800
+                  bg-gray-200
                   duration-300
                   p-2
-                  bg-gray-200
                   rounded
                   ease-in-out
                   transform
@@ -344,12 +340,7 @@
         <div class="p-5 border border-t-0">
           <p class="mb-2 text-xs font-semibold tracking-wide uppercase">
             <a
-              class="
-                transition-colors
-                duration-300
-                text-green-600
-                hover:text-deep-purple-accent-700
-              "
+              class="transition-colors duration-300 text-gray-500"
               aria-label="Category"
               >thaa atoll</a
             >
@@ -506,9 +497,10 @@
                   font-semibold
                   transition-colors
                   hover:bg-gray-300
+                  text-gray-800
+                  bg-gray-200
                   duration-300
                   p-2
-                  bg-gray-200
                   rounded
                   ease-in-out
                   transform
@@ -540,12 +532,7 @@
         <div class="p-5 border border-t-0">
           <p class="mb-2 text-xs font-semibold tracking-wide uppercase">
             <a
-              class="
-                transition-colors
-                duration-300
-                text-green-600
-                hover:text-deep-purple-accent-700
-              "
+              class="transition-colors duration-300 text-gray-500"
               aria-label="Category"
               >alifu atoll</a
             >
@@ -700,9 +687,10 @@
                   font-semibold
                   transition-colors
                   hover:bg-gray-300
+                  text-gray-800
+                  bg-gray-200
                   duration-300
                   p-2
-                  bg-gray-200
                   rounded
                   ease-in-out
                   transform
@@ -734,12 +722,7 @@
         <div class="p-5 border border-t-0">
           <p class="mb-2 text-xs font-semibold tracking-wide uppercase">
             <a
-              class="
-                transition-colors
-                duration-300
-                text-green-600
-                hover:text-deep-purple-accent-700
-              "
+              class="transition-colors duration-300 text-gray-500"
               aria-label="Category"
               >thaa atoll</a
             >
@@ -894,9 +877,10 @@
                   font-semibold
                   transition-colors
                   hover:bg-gray-300
+                  text-gray-800
+                  bg-gray-200
                   duration-300
                   p-2
-                  bg-gray-200
                   rounded
                   ease-in-out
                   transform
@@ -928,12 +912,7 @@
         <div class="p-5 border border-t-0">
           <p class="mb-2 text-xs font-semibold tracking-wide uppercase">
             <a
-              class="
-                transition-colors
-                duration-300
-                text-green-600
-                hover:text-deep-purple-accent-700
-              "
+              class="transition-colors duration-300 text-gray-500"
               aria-label="Category"
               >laamu atoll</a
             >
@@ -1088,9 +1067,10 @@
                 font-semibold
                 transition-colors
                 hover:bg-gray-300
+                text-gray-800
+                bg-gray-200
                 duration-300
                 p-2
-                bg-gray-200
                 rounded
                 ease-in-out
                 transform
@@ -1121,12 +1101,7 @@
         <div class="p-5 border border-t-0">
           <p class="mb-2 text-xs font-semibold tracking-wide uppercase">
             <a
-              class="
-                transition-colors
-                duration-300
-                text-green-600
-                hover:text-deep-purple-accent-700
-              "
+              class="transition-colors duration-300 text-gray-500"
               aria-label="Category"
               >gaafu atoll</a
             >
@@ -1282,9 +1257,10 @@
                   font-semibold
                   transition-colors
                   hover:bg-gray-300
+                  text-gray-800
+                  bg-gray-200
                   duration-300
                   p-2
-                  bg-gray-200
                   rounded
                   ease-in-out
                   transform

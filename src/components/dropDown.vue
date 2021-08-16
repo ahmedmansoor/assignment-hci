@@ -20,7 +20,7 @@
         focus:border-green-500
       "
     >
-      <ListboxButton
+      <ListboxButton class="px-20"
         >{{ selectedEscape.name }}
         <span
           class="

@@ -1,86 +1,70 @@
 <template>
   <TabBar></TabBar>
-  <div
-    class="
-      dark:bg-gray-800
-      overflow-hidden
-      relative
-      lg:flex lg:items-center
-      flex-row
-    "
-  >
-    <div class="py-12 px-16 lg:py-16 w-3/4">
-      <h2
-        class="text-3xl font-extrabold text-black dark:text-white sm:text-4xl"
-      >
-        <span class="block"> Mother hearth host your travel </span>
-      </h2>
-      <p class="text-md mt-4 text-gray-400">
-        The state of Utah in the united states is home to lots of beautiful
-        National parks, Bryce national canion park ranks as three of the most
-        magnificient &amp; awe inspiring.
-      </p>
-      <div class="lg:mt-0 lg:flex-shrink-0">
-        <div
-          class="
-            mt-12
-            rounded-md
-            shadow
-            grid
-            gap-2
-            lg:grid-cols-1
-            sm:max-w-sm sm:mx-auto
-            lg:max-w-full
-          "
-        >
-          <button
-            type="button"
-            class="
-              py-2
-              px-4
-              bg-green-500
-              hover:bg-green-700
-              focus:ring-green-500 focus:ring-offset-green-200
-              text-white
-              w-full
-              transition
-              ease-in
-              duration-200
-              text-center text-base
-              font-semibold
-              shadow-md
-              focus:outline-none focus:ring-2 focus:ring-offset-2
-              rounded-lg
-            "
-          >
-            Get started
-          </button>
-        </div>
-      </div>
-    </div>
-    <div
+  <div>
+    <h2
       class="
-        px-10
-        md:px-0
-        items-center
-        p-8
-        lg:p-24
-        w-full
-        h-full
-        grid
-        gap-4
-        lg:grid-cols-2
+        py-12
+        px-16
+        text-3xl
+        font-extrabold
+        text-black
+        dark:text-white
+        sm:text-4xl
       "
     >
-      <div class="bg-center bg-cover bg-black w-full h-full rounded">
-        <img class="rounded object-cover h-96" />
-      </div>
-      <div>
-        <div class="bg-green-500 bg-center bg-cover rounded">
-          <img class="ml-16 mb-8 h-44 w-full" />
+      <span class="block">Arena Beach Resort</span>
+    </h2>
+    <div class="px-16 mb-10 w-full grid grid-flow-col grid-cols-2">
+      <div class="p-6 pl-0 items-center h-full grid gap-4 grid-cols-2">
+        <div class="bg-center bg-cover bg-black w-full h-full rounded">
+          <img class="rounded object-cover h-96" />
         </div>
-        <div class="bg-yellow-500 bg-center bg-cover rounded">
-          <img class="h-44 w-full" />
+        <div>
+          <div class="bg-green-500 bg-center bg-cover rounded">
+            <img class="ml-16 mb-5 h-48 w-full" />
+          </div>
+          <div class="bg-yellow-500 bg-center bg-cover rounded">
+            <img class="h-48 w-full" />
+          </div>
+        </div>
+      </div>
+      <!-- texts -->
+      <div class="w-full">
+        <p class="mt-8 my-5 text-md text-gray-500">
+          Offering a barbecue and children's playground, Olhumathi View Inn is
+          located in Ukulhas. The guest house has a fitness centre and a private
+          beach area. Free private parking is available on site.
+        </p>
+        <!-- <div class="lg:mt-0 lg:flex-shrink-0">
+          <div
+            class="
+              mt-12
+              rounded-md
+              shadow
+              grid
+              gap-2
+              lg:grid-cols-1
+              sm:max-w-sm sm:mx-auto
+              lg:max-w-full
+            "
+          ></div>
+        </div> -->
+        <div>
+          <!-- tabs1 -->
+          <TabsWrapper>
+            <Tab title="About" class="text-gray-500 py-5"
+              >Each room is equipped with a flat-screen TV. Some rooms include a
+              seating area for your convenience. The rooms are fitted with a
+              private bathroom fitted with a bath or shower. Extras include
+              bathrobes, slippers, and free toiletries. Olhumathi View Inn
+              features free WiFi throughout the property. You will find shops on
+              the property. Olhumathi restaurant serves local and international
+              cuisines as well as special dietary meals upon guest request. Room
+              service is also available.</Tab
+            >
+            <Tab title="How to get here">How to get here</Tab>
+            <Tab title="Contact">Contact</Tab>
+          </TabsWrapper>
         </div>
       </div>
     </div>
@@ -88,12 +72,16 @@
 </template>
 
 <script>
-import TabBar from '../components/tabbar.vue';
+import TabBar from "../components/tabbar.vue";
+import TabsWrapper from "../components/tabsWrapper.vue";
+import Tab from "../components/tab.vue";
 
 export default {
-  name: 'ResortDetails',
+  name: "ResortDetails",
   components: {
     TabBar,
+    TabsWrapper,
+    Tab,
   },
 };
 </script>
