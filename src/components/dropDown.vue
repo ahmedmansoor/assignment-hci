@@ -17,7 +17,6 @@
         bg-gray-50
         border-2 border-gray-300
         text-gray-700
-        focus:border-green-500
       "
     >
       <ListboxButton class="px-20"
@@ -48,13 +47,13 @@
           border-2 border-gray-300
           bg-gray-50
           text-gray-700
-          focus:border-green-500
           absolute
           w-full
           text-base
           overflow-auto
           focus:outline-none
           shadow-xl
+          mt-4
         "
       >
         <ListboxOption
@@ -62,7 +61,7 @@
           :key="escape"
           :value="escape"
           :disabled="escape.unavailable"
-          class="hover:bg-green-400 py-2"
+          class="hover:bg-yellow-100 hover:text-yellow-700 py-2"
         >
           {{ escape.name }}
         </ListboxOption>
@@ -72,14 +71,14 @@
 </template>
 
 <script>
-import { ref } from 'vue';
+import { ref } from "vue";
 import {
   Listbox,
   ListboxButton,
   ListboxOptions,
   ListboxOption,
-} from '@headlessui/vue';
-import { CheckIcon, SelectorIcon } from '@heroicons/vue/solid';
+} from "@headlessui/vue";
+import { CheckIcon, SelectorIcon } from "@heroicons/vue/solid";
 
 export default {
   components: {
@@ -93,12 +92,12 @@ export default {
 
   setup() {
     const escapesList = [
-      { id: 1, name: 'All Inclusive', unavailable: false },
-      { id: 2, name: 'Honeymoon', unavailable: false },
-      { id: 3, name: 'Luxury', unavailable: false },
-      { id: 4, name: 'Budget', unavailable: false },
-      { id: 5, name: 'Family', unavailable: false },
-      { id: 6, name: 'Events', unavailable: false },
+      { id: 1, name: "All Inclusive", unavailable: false },
+      { id: 2, name: "Honeymoon", unavailable: false },
+      { id: 3, name: "Luxury", unavailable: false },
+      { id: 4, name: "Budget", unavailable: false },
+      { id: 5, name: "Family", unavailable: false },
+      { id: 6, name: "Events", unavailable: false },
     ];
     const selectedEscape = ref(escapesList[0]);
 

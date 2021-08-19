@@ -21,7 +21,9 @@ module.exports = {
         resort9: "url('assets/img/resorts/resort9.jpg')",
         resort10: "url('assets/img/resorts/resort10.jpg')",
         resort11: "url('assets/img/resorts/resort11.jpg')",
-        resort12: "url('assets/img/resorts/resort12.jpg')",
+        resort14: "url('assets/img/resorts/resort14.jpg')",
+        resort15: "url('assets/img/resorts/resort15.jpg')",
+        resort16: "url('assets/img/resorts/resort16.jpg')",
       }),
       fontFamily: {
         heading: ["Volkhov"],

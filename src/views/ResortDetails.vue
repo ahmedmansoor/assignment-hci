@@ -16,14 +16,14 @@
     </h2>
     <div class="px-16 mb-10 w-full grid grid-flow-col grid-cols-2">
       <div class="p-6 pl-0 items-center h-full grid gap-4 grid-cols-2">
-        <div class="bg-center bg-cover bg-black w-full h-full rounded">
+        <div class="bg-center bg-cover bg-resort11 w-full h-full rounded">
           <img class="rounded object-cover h-96" />
         </div>
         <div>
-          <div class="bg-green-500 bg-center bg-cover rounded">
+          <div class="bg-resort10 bg-center bg-cover rounded">
             <img class="ml-16 mb-5 h-48 w-full" />
           </div>
-          <div class="bg-yellow-500 bg-center bg-cover rounded">
+          <div class="bg-resort11 bg-center bg-cover rounded">
             <img class="h-48 w-full" />
           </div>
         </div>
@@ -69,12 +69,14 @@
       </div>
     </div>
   </div>
+  <Packages></Packages>
 </template>
 
 <script>
 import TabBar from "../components/tabbar.vue";
 import TabsWrapper from "../components/tabsWrapper.vue";
 import Tab from "../components/tab.vue";
+import Packages from "../components/packages.vue";
 
 export default {
   name: "ResortDetails",
@@ -82,6 +84,7 @@ export default {
     TabBar,
     TabsWrapper,
     Tab,
+    Packages,
   },
 };
 </script>

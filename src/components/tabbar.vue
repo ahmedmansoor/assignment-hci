@@ -418,11 +418,11 @@
 </template>
 
 <script>
-import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue';
-import { MenuIcon, XIcon } from '@heroicons/vue/outline';
+import { Popover, PopoverButton, PopoverPanel } from "@headlessui/vue";
+import { MenuIcon, XIcon } from "@heroicons/vue/outline";
 
 export default {
-  name: 'TabBar',
+  name: "TabBar",
   components: {
     Popover,
     PopoverButton,
