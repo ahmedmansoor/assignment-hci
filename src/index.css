@@ -4,8 +4,8 @@
 
 @layer base {
   @font-face {
-    font-family: Volkhov;
+    font-family: LatoBold;
     font-weight: 400;
-    src: url(./assets/fonts/Volkhov-Bold.ttf);
+    src: url(./assets/fonts/Lato-Bold.ttf);
   }
 }

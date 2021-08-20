@@ -2,7 +2,16 @@
   <!-- <section class="text-gray-800 bg-emptybeach bg-cover bg-top bg-no-repeat"> -->
   <section class="text-gray-800">
     <TabBar></TabBar>
-    <div class="flex flex-col py-20 lg:py-10 mx-auto lg:items-center">
+    <div
+      class="
+        flex flex-col
+        py-20
+        lg:py-10
+        mx-auto
+        lg:items-center
+        bg-spade bg-cover
+      "
+    >
       <div
         class="
           py-10
@@ -42,13 +51,33 @@
           Maldives accommodation & save up to 60% on hotel booking online.
         </p>
       </div>
-      <p class="font-bold text-2xl text-gray-800 px-16">
-        Search for available resorts
-      </p>
       <div
-        class="p-5 flex flex-col w-full md:flex-row justify-center self-center"
+        class="
+          p-5
+          flex flex-col
+          w-full
+          md:flex-row
+          justify-center
+          self-center
+          rounded-lg
+        "
       >
-        <div class="bg-white rounded">
+        <div class="rounded-lg overflow-hidden shadow-lg">
+          <p
+            class="
+              font-medium
+              text-lg
+              px-3
+              py-1
+              text-center
+              tracking-wide
+              bg-gray-800
+              text-gray-100
+              bg-opacity-70
+            "
+          >
+            Search for available resorts
+          </p>
           <DatePicker v-model="range" mode="dateTime" :masks="masks" is-range>
             <template v-slot="{ inputValue, inputEvents, isDragging }">
               <div
@@ -58,7 +87,9 @@
                   items-center
                   justify-items-center justify-between
                   p-3
+                  pt-3
                   w-full
+                  bg-white
                 "
               >
                 <div class="relative flex-grow w-full md:w-auto">

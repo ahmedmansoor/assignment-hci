@@ -1290,11 +1290,11 @@
 </template>
 
 <script>
-import TabBar from '../components/tabbar.vue';
-import DropDown from '../components/dropDown.vue';
+import TabBar from "../components/tabbar.vue";
+import DropDown from "../components/dropDown.vue";
 
 export default {
-  name: 'Resorts',
+  name: "Resorts",
   components: {
     TabBar,
     DropDown,

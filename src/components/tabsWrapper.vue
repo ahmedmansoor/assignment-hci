@@ -6,7 +6,14 @@
         :key="title"
         :class="{ selected: title == selectedTitle }"
         @click="selectedTitle = title"
-        class="inline-block px-4 py-2 text-gray-700 hover:text-black"
+        class="
+          inline-block
+          px-4
+          py-2
+          text-gray-700
+          tracking-wide
+          hover:text-black
+        "
       >
         {{ title }}
       </li>

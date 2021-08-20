@@ -29,7 +29,7 @@
             bg-teal-accent-400
           "
         >
-          Our Pricing
+          Our Packages
         </p>
       </div>
       <h2
@@ -81,13 +81,14 @@
               height="24"
             ></rect>
           </svg>
-          <span class="relative">Transparent</span>
+          <span class="relative">Benefits</span>
         </span>
-        pricing. Pay as you grow.
+        of booking direct.
       </h2>
       <p class="text-base text-gray-700 md:text-lg">
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque rem aperiam, eaque ipsa quae.
+        Book directly and be entitled to receive astonishing benefits from us,
+        one of the top hotels in the Maldives. We price-match for lower rates on
+        hotel booking websites.
       </p>
     </div>
     <div
@@ -143,8 +144,8 @@
             <div class="text-gray-700">/ person</div>
           </div>
           <p class="py-2 text-gray-700 dark:text-gray-400">
-            Enjoy this Summer with our special package inclusive of Dinner &
-            Return speedboat transfers.
+            Enjoy this summer with our special package inclusive of dinner &
+            return transfers.
           </p>
 
           <div>
@@ -303,9 +304,7 @@
               class="w-6 h-6 text-white fill-current"
               src="https://img.icons8.com/ios-glyphs/100/ffffff/beach-umbrella.png"
             />
-            <h1 class="mx-3 text-lg font-semibold text-white">
-              Flexible offer
-            </h1>
+            <h1 class="mx-3 text-lg font-semibold text-white">Flexible</h1>
           </div>
         </div>
 
@@ -315,8 +314,8 @@
             <div class="text-gray-700">/ person</div>
           </div>
           <p class="py-2 text-gray-700 dark:text-gray-400">
-            Enjoy this Summer with our special package inclusive of Dinner &
-            Return speedboat transfers.
+            An exotic floating oasis in paradise where you can immerse in divine
+            relaxation awaits you.
           </p>
 
           <div>
@@ -344,7 +343,7 @@
                     ></circle>
                   </svg>
                 </div>
-                <p class="font-medium text-gray-800">Daily dinner</p>
+                <p class="font-medium text-gray-800">Floating breakfast</p>
               </li>
               <li class="flex items-center">
                 <div class="mr-2">
@@ -368,7 +367,32 @@
                     ></circle>
                   </svg>
                 </div>
-                <p class="font-medium text-gray-800">10% off on selected Spa</p>
+                <p class="font-medium text-gray-800">Flexibility of checking</p>
+              </li>
+
+              <li class="flex items-center">
+                <div class="mr-2">
+                  <svg
+                    class="w-4 h-4 text-deep-purple-accent-400"
+                    viewBox="0 0 24 24"
+                    stroke-linecap="round"
+                    stroke-width="2"
+                  >
+                    <polyline
+                      fill="none"
+                      stroke="currentColor"
+                      points="6,12 10,16 18,8"
+                    ></polyline>
+                    <circle
+                      cx="12"
+                      cy="12"
+                      fill="none"
+                      r="11"
+                      stroke="currentColor"
+                    ></circle>
+                  </svg>
+                </div>
+                <p class="font-medium text-gray-800">Beach Club facilities</p>
               </li>
               <li class="flex items-center">
                 <div class="mr-2">
@@ -392,31 +416,7 @@
                     ></circle>
                   </svg>
                 </div>
-                <p class="font-medium text-gray-800">Tropical Fruit basket</p>
-              </li>
-              <li class="flex items-center">
-                <div class="mr-2">
-                  <svg
-                    class="w-4 h-4 text-deep-purple-accent-400"
-                    viewBox="0 0 24 24"
-                    stroke-linecap="round"
-                    stroke-width="2"
-                  >
-                    <polyline
-                      fill="none"
-                      stroke="currentColor"
-                      points="6,12 10,16 18,8"
-                    ></polyline>
-                    <circle
-                      cx="12"
-                      cy="12"
-                      fill="none"
-                      r="11"
-                      stroke="currentColor"
-                    ></circle>
-                  </svg>
-                </div>
-                <p class="font-medium text-gray-800">Daily buffet</p>
+                <p class="font-medium text-gray-800">Unlimited Wi-Fi</p>
               </li>
             </ul>
           </div>
@@ -486,8 +486,8 @@
             <div class="text-gray-700">/ person</div>
           </div>
           <p class="py-2 text-gray-700 dark:text-gray-400">
-            Enjoy this Summer with our special package inclusive of Dinner &
-            Return speedboat transfers.
+            Immerse in the beautiful sunrise of the Maldives while in the arms
+            of your loved one.
           </p>
 
           <div>
@@ -515,7 +515,7 @@
                     ></circle>
                   </svg>
                 </div>
-                <p class="font-medium text-gray-800">Daily dinner</p>
+                <p class="font-medium text-gray-800">Candle dinner</p>
               </li>
               <li class="flex items-center">
                 <div class="mr-2">
@@ -539,7 +539,9 @@
                     ></circle>
                   </svg>
                 </div>
-                <p class="font-medium text-gray-800">10% off on selected Spa</p>
+                <p class="font-medium text-gray-800">
+                  Celebration cake for two
+                </p>
               </li>
               <li class="flex items-center">
                 <div class="mr-2">
@@ -563,7 +565,7 @@
                     ></circle>
                   </svg>
                 </div>
-                <p class="font-medium text-gray-800">Tropical Fruit basket</p>
+                <p class="font-medium text-gray-800">Couple Balinese massage</p>
               </li>
               <li class="flex items-center">
                 <div class="mr-2">
@@ -587,7 +589,9 @@
                     ></circle>
                   </svg>
                 </div>
-                <p class="font-medium text-gray-800">Daily buffet</p>
+                <p class="font-medium text-gray-800">
+                  Honeymoon bed decoration
+                </p>
               </li>
             </ul>
           </div>

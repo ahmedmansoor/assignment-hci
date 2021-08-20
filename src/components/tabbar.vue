@@ -10,7 +10,7 @@
             width="60"
             src="https://img.icons8.com/clouds/100/000000/beach.png"
           /> -->
-            <span class="mb-1 font-black font-sans sm:text-xl lg:text-2xl"
+            <span class="font-black sm:text-xl lg:text-2xl font-heading"
               >Maldives Bookings</span
             >
           </a>

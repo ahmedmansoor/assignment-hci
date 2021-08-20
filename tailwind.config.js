@@ -9,7 +9,9 @@ module.exports = {
         sun: "url('assets/img/sun-beach.svg')",
         wave: "url('assets/img/wave.png')",
         people: "url('assets/img/people.svg')",
+        glasses: "url('assets/img/two-glasses.jpg')",
         emptybeach: "url('assets/img/empty-beach.jpg')",
+        spade: "url('assets/img/spade.jpg')",
         resort1: "url('assets/img/resorts/resort1.jpg')",
         resort2: "url('assets/img/resorts/resort2.jpg')",
         resort3: "url('assets/img/resorts/resort3.jpg')",
@@ -26,7 +28,7 @@ module.exports = {
         resort16: "url('assets/img/resorts/resort16.jpg')",
       }),
       fontFamily: {
-        heading: ["Volkhov"],
+        heading: ["LatoBold"],
       },
     },
   },
