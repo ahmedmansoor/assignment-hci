@@ -3,6 +3,7 @@ import Home from "../views/Home.vue";
 import Resorts from "../views/Resorts.vue";
 import Guesthouses from "../views/Guesthouses.vue";
 import ResortDetails from "../views/ResortDetails.vue";
+import CheckOut from "../views/CheckOut.vue";
 import Contact from "../views/Contact.vue";
 import About from "../views/About.vue";
 
@@ -50,6 +51,11 @@ const routes = [
     path: "/ResortDetails",
     name: "resortdetails",
     component: ResortDetails,
+  },
+  {
+    path: "/CheckOut",
+    name: "checkout",
+    component: CheckOut,
   },
   {
     path: "/About",

@@ -229,7 +229,6 @@
               grid grid-cols-1 grid-flow-row
               md:mx-10
               rounded-md
-              border-2 border-gray-400
             "
           >
             <div class="px-5 pt-4 flex items-center justify-between">

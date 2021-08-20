@@ -9,7 +9,7 @@
         lg:py-10
         mx-auto
         lg:items-center
-        bg-spade bg-cover
+        bg-glasses bg-cover
       "
     >
       <div
@@ -43,7 +43,7 @@
             text-base
             font-medium
             leading-relaxed
-            text-gray-600
+            text-gray-900
             lg:w-2/3
           "
         >
@@ -236,11 +236,11 @@ export default {
   data() {
     return {
       range: {
-        start: new Date(2021, 7, 6),
-        end: new Date(2021, 7, 18),
+        start: new Date(2021, 7, 20),
+        end: new Date(2021, 7, 30),
       },
       masks: {
-        input: "YYYY-MM-DD h:mm A",
+        input: "DD-MM-YYYY h:mm A",
       },
     };
   },

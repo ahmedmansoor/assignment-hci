@@ -249,30 +249,32 @@
               </li>
             </ul>
           </div>
-          <a
-            href="/"
-            class="
-              inline-flex
-              items-center
-              justify-center
-              w-full
-              h-12
-              px-6
-              mt-6
-              font-medium
-              tracking-wide
-              text-white
-              transition
-              duration-200
-              bg-green-600
-              rounded
-              shadow-md
-              hover:bg-green-700
-              focus:shadow-outline focus:outline-none
-            "
-          >
-            Book Now
-          </a>
+          <router-link :to="{ name: 'checkout' }">
+            <a
+              href="/"
+              class="
+                inline-flex
+                items-center
+                justify-center
+                w-full
+                h-12
+                px-6
+                mt-6
+                font-medium
+                tracking-wide
+                text-white
+                transition
+                duration-200
+                bg-green-600
+                rounded
+                shadow-md
+                hover:bg-green-700
+                focus:shadow-outline focus:outline-none
+              "
+            >
+              Book Now
+            </a>
+          </router-link>
         </div>
       </div>
 
