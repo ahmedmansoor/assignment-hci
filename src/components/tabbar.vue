@@ -16,101 +16,96 @@
           </a>
         </router-link>
         <nav
+          @click="active"
           class="
             md:ml-auto
             flex flex-wrap
             items-center
-            text-base
             font-semibold
             justify-center
+            tracking-wider
             text-gray-700
           "
         >
-          <router-link :to="{ name: 'Home' }">
+          <router-link tag="li" :to="{ name: 'Home' }" class="mx-1">
             <a
               class="
-                p-2
-                mx-2
+                p-1.5
+                px-2
                 mt-2
-                bg-yellow-100
-                text-yellow-700
+                hover:bg-gray-100
                 rounded
                 transition
                 duration-300
                 font-medium
-                text-base
                 ease-in-out
                 transform
               "
               >Home</a
             >
           </router-link>
-          <router-link :to="{ name: 'resorts' }">
+          <router-link tag="li" :to="{ name: 'resorts' }" class="mx-1">
             <a
               class="
-                p-2
-                mx-2
+                p-1.5
+                px-2
                 mt-2
-                hover:bg-yellow-100 hover:text-yellow-700
+                hover:bg-gray-100
                 rounded
                 transition
                 duration-300
                 font-medium
-                text-base
                 ease-in-out
                 transform
               "
               >Resorts</a
             >
           </router-link>
-          <router-link :to="{ name: 'guesthouses' }">
+          <router-link tag="li" :to="{ name: 'guesthouses' }" class="mx-1">
             <a
               class="
-                p-2
-                mx-2
+                p-1.5
+                px-2
                 mt-2
-                hover:bg-yellow-100 hover:text-yellow-700
+                hover:bg-gray-100
                 rounded
                 transition
                 duration-300
                 font-medium
-                text-base
                 ease-in-out
                 transform
               "
               >Guesthouses</a
             >
           </router-link>
-          <router-link :to="{ name: 'contact' }">
+          <router-link tag="li" :to="{ name: 'contact' }" class="mx-1">
             <a
               class="
-                p-2
-                mx-2
+                p-1.5
+                px-2
                 mt-2
-                hover:bg-yellow-100 hover:text-yellow-700
+                hover:bg-gray-100
                 rounded
                 transition
                 duration-300
                 font-medium
-                text-base
                 ease-in-out
                 transform
               "
               >Contact</a
             >
           </router-link>
-          <router-link :to="{ name: 'about' }">
+          <router-link tag="li" :to="{ name: 'about' }" class="mx-1">
             <a
               class="
-                p-2
-                mx-2
+                p-1.5
+                px-2
                 mt-2
-                hover:bg-yellow-100 hover:text-yellow-700
+                hover:bg-gray-100
                 rounded
                 transition
                 duration-300
                 font-medium
-                text-base
                 ease-in-out
                 transform
               "
@@ -122,21 +117,18 @@
               class="
                 inline-flex
                 items-center
-                font-bold
+                font-semibold
                 transition
                 duration-300
                 ease-in-out
                 transform
-                py-1
                 px-3
-                focus:outline-none
-                hover:bg-yellow-200
+                h-8
                 rounded
-                text-base
                 md:mt-0
-                p-2
-                bg-gray-200
-                tracking-wide
+                hover:bg-gray-200
+                bg-gray-200 bg-opacity-40
+                tracking-wider
               "
             >
               Sign In
@@ -274,7 +266,7 @@
                   px-3
                   py-2
                   rounded-md
-                  text-base
+                 
                   font-medium
                   text-gray-700
                   hover:bg-yellow-100 hover:text-yellow-700
@@ -291,7 +283,6 @@
                   transition
                   duration-300
                   font-medium
-                  text-base
                   ease-in-out
                   transform
                   block
@@ -311,7 +302,6 @@
                   transition
                   duration-300
                   font-medium
-                  text-base
                   ease-in-out
                   transform
                   block
@@ -331,7 +321,6 @@
                   transition
                   duration-300
                   font-medium
-                  text-base
                   ease-in-out
                   transform
                   block
@@ -351,7 +340,6 @@
                   transition
                   duration-300
                   font-medium
-                  text-base
                   ease-in-out
                   transform
                   block
@@ -371,7 +359,6 @@
                   transition
                   duration-300
                   font-medium
-                  text-base
                   ease-in-out
                   transform
                   block
@@ -394,8 +381,7 @@
                   ease-in-out
                   transform
                   focus:outline-none
-                  hover:bg-yellow-200
-                  text-base
+                  hover:bg-gray-200
                   tracking-wide
                   block
                   w-full
@@ -431,3 +417,18 @@ export default {
   },
 };
 </script>
+
+<style>
+nav .active {
+  cursor: pointer;
+  --tw-text-opacity: 1;
+  color: rgba(180, 83, 9, var(--tw-text-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgba(254, 243, 199, var(--tw-bg-opacity));
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 2rem;
+  border-radius: 0.25rem;
+}
+</style>
+l

@@ -12,7 +12,7 @@
         lg:w-2/3
       "
     >
-      <img class="object-cover w-full h-full" />
+      <img class="object-cover" />
     </div>
     <div
       class="

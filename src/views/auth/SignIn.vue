@@ -12,7 +12,6 @@
         w-full
         h-screen
         px-16
-        bg-white
         md:max-w-md
         lg:max-w-full
         md:mx-auto md:w-1/2
