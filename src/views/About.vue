@@ -6,7 +6,7 @@
         hidden
         w-full
         h-screen
-        bg-sun bg-center bg-cover
+        bg-surf bg-center bg-cover
         lg:block
         md:w-1/3
         lg:w-2/3

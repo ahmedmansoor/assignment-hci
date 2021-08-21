@@ -1,7 +1,16 @@
 <template>
   <TabBar></TabBar>
   <section id="SignUp" class="flex flex-col items-center h-screen md:flex-row">
-    <div class="hidden w-full h-screen bg-people bg-cover lg:block md:w-2/3">
+    <div
+      class="
+        hidden
+        w-full
+        h-screen
+        bg-right bg-glasses bg-cover
+        lg:block
+        md:w-2/3
+      "
+    >
       <img alt="" class="object-cover w-full h-full" />
     </div>
     <div
