@@ -10,6 +10,8 @@ module.exports = {
         wave: "url('assets/img/wave.png')",
         people: "url('assets/img/people.svg')",
         glasses: "url('assets/img/two-glasses.jpg')",
+        surf: "url('assets/img/surf.jpg')",
+        shoe: "url('assets/img/shoe.jpg')",
         emptybeach: "url('assets/img/empty-beach.jpg')",
         spade: "url('assets/img/spade.jpg')",
         resort1: "url('assets/img/resorts/resort1.jpg')",

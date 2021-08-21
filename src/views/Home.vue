@@ -5,45 +5,28 @@
     <div
       class="
         flex flex-col
-        py-20
+        py-16
         lg:py-10
         mx-auto
         lg:items-center
-        bg-glasses bg-cover
+        bg-shoe bg-cover bg-center
       "
     >
       <div
-        class="
-          py-10
-          flex flex-col
-          px-16
-          w-full
-          mx-auto
-          mb-12
-          text-left
-          lg:text-center
-        "
+        class="py-10 flex flex-col px-10 sm:px-16 w-full md:mx-auto text-center"
       >
         <h1
-          class="
-            mb-6
-            text-2xl
-            font-black
-            tracking-tight
-            sm:text-5xl
-            title-font
-            font-sans
-          "
+          class="mb-6 text-5xl font-black tracking-tight title-font font-sans"
         >
           Find Deals for Any Season
         </h1>
         <p
           class="
             mx-auto
-            text-base
-            font-medium
+            sm:px-10
+            font-semibold
             leading-relaxed
-            text-gray-900
+            text-gray-500
             lg:w-2/3
           "
         >
@@ -62,7 +45,7 @@
           rounded-lg
         "
       >
-        <div class="rounded-lg overflow-hidden shadow-lg">
+        <div class="rounded-lg overflow-hidden shadow-lg mx-10">
           <p
             class="
               font-medium
@@ -78,7 +61,7 @@
           >
             Search for available resorts
           </p>
-          <DatePicker v-model="range" mode="dateTime" :masks="masks" is-range>
+          <DatePicker v-model="range" mode="date" :masks="masks" is-range>
             <template v-slot="{ inputValue, inputEvents, isDragging }">
               <div
                 class="
@@ -125,6 +108,7 @@
                       h-10
                       w-full
                       tracking-wide
+                      cursor-pointer
                     "
                     :class="isDragging ? 'text-gray-600' : 'text-gray-900'"
                     :value="inputValue.start"
@@ -177,6 +161,7 @@
                       w-full
                       h-10
                       tracking-wide
+                      cursor-pointer
                     "
                     :class="isDragging ? 'text-gray-600' : 'text-gray-900'"
                     :value="inputValue.end"
@@ -240,7 +225,7 @@ export default {
         end: new Date(2021, 7, 30),
       },
       masks: {
-        input: "DD-MM-YYYY h:mm A",
+        input: "DD-MM-YYYY",
       },
     };
   },

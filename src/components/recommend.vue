@@ -1,5 +1,5 @@
 <template>
-  <div class="container px-16 py-10 mx-auto">
+  <div class="container px-10 lg:px-16 py-10 mx-auto">
     <div>
       <div class="container px-8 mx-auto">
         <h1
@@ -42,6 +42,7 @@
           md:grid-cols-2
           sm:max-w-sm sm:mx-auto
           lg:max-w-full
+          cursor-pointer
         "
       >
         <!-- Card 1 -->
@@ -51,6 +52,7 @@
             rounded
             transition-shadow
             duration-300
+            shadow-md
             hover:shadow-xl
             p-3
             mb-3
@@ -307,6 +309,7 @@
             rounded
             transition-shadow
             duration-300
+            shadow-md
             hover:shadow-xl
             p-3
             mb-3
@@ -560,6 +563,7 @@
             overflow-hidden
             transition-shadow
             duration-300
+            shadow-md
             hover:shadow-xl
             p-3
             mb-3
@@ -815,6 +819,7 @@
             overflow-hidden
             transition-shadow
             duration-300
+            shadow-md
             rounded
             hover:shadow-xl
             p-3

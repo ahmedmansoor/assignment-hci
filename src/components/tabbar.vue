@@ -160,7 +160,8 @@
                   class="h-8 w-auto sm:h-10"
                   src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
                 /> -->
-                <span class="ml-3 mb-1 font-black font-sans text-2xl lg:hidden"
+                <span
+                  class="ml-3 mb-1 font-black font-heading text-2xl lg:hidden"
                   >Maldives Bookings</span
                 >
               </a>
@@ -230,7 +231,7 @@
                   src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
                   alt=""
                 /> -->
-                <span class="mb-1 font-black font-sans text-2xl"
+                <span class="mb-1 font-black font-heading text-2xl"
                   >Maldives Bookings</span
                 >
               </div>

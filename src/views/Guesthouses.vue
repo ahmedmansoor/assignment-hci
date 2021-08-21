@@ -304,27 +304,29 @@
           >
 
           <div class="content-center justify-center self-center">
-            <a
-              aria-label=""
-              class="
-                inline-flex
-                items-center
-                font-semibold
-                transition-colors
-                hover:bg-gray-300
-                duration-300
-                p-2
-                bg-gray-200
-                rounded
-                ease-in-out
-                transform
-                tracking-wide
-                cursor-pointer
-                w-full
-                justify-center
-              "
-              >View Packages</a
-            >
+            <router-link :to="{ name: 'resortdetails' }">
+              <a
+                aria-label=""
+                class="
+                  inline-flex
+                  items-center
+                  font-semibold
+                  transition-colors
+                  hover:bg-gray-300
+                  duration-300
+                  p-2
+                  bg-gray-200
+                  rounded
+                  ease-in-out
+                  transform
+                  tracking-wide
+                  cursor-pointer
+                  w-full
+                  justify-center
+                "
+                >View Packages</a
+              >
+            </router-link>
           </div>
         </div>
       </div>
@@ -1312,11 +1314,11 @@
 </template>
 
 <script>
-import TabBar from '../components/tabbar.vue';
-import DropDown from '../components/dropDown.vue';
+import TabBar from "../components/tabbar.vue";
+import DropDown from "../components/dropDown.vue";
 
 export default {
-  name: 'Guesthouses',
+  name: "Guesthouses",
   components: {
     TabBar,
     DropDown,
