@@ -68,65 +68,68 @@
     <p class="text-base text-gray-700 md:text-lg">
       There is something for everyone in these exotic destinations.
     </p>
-    <div
+  </div>
+  <div
+    class="
+      flex flex-col
+      mt-8
+      space-y-3
+      lg:space-y-0 lg:flex-row
+      justify-center
+      lg:mx-20
+    "
+  >
+    <!-- dropdpwn -->
+    <DropDown></DropDown>
+    <Atolls></Atolls>
+
+    <input
+      type="text"
       class="
-        flex flex-col
-        mt-8
-        space-y-3
-        lg:space-y-0 lg:flex-row
-        justify-center
+        w-full
+        px-2
+        py-1
+        lg:ml-4
+        h-10
+        rounded
+        focus:outline-none
+        bg-gray-100 bg-opacity-50
+        border-2 border-gray-300
+        focus:border-green-500 focus:bg-white
+        text-gray-700
+        tracking-wide
+      "
+      placeholder="Search for Resorts"
+    />
+
+    <button
+      class="
+        py-1
+        px-4
+        tracking-wider
+        text-white
+        capitalize
+        lg:w-auto lg:mx-4
+        block
+        w-full
+        h-10
+        mt-6
+        font-semibold
+        rounded
+        shadow-md
+        bg-green-500
+        hover:bg-green-600
+        border-green-600 border-2
+        focus:shadow-outline focus:outline-none focus:ring-2
+        ring-offset-current ring-offset-2
+        transition
+        duration-300
+        ease-in-out
+        transform
       "
     >
-      <!-- dropdpwn -->
-      <DropDown></DropDown>
-      <input
-        type="text"
-        class="
-          w-full
-          px-2
-          py-1
-          lg:ml-4
-          h-10
-          rounded
-          focus:outline-none
-          bg-gray-100 bg-opacity-50
-          border-2 border-gray-300
-          focus:border-green-500 focus:bg-white
-          text-gray-700
-          tracking-wide
-        "
-        placeholder="Search for Resorts"
-      />
-
-      <button
-        class="
-          py-1
-          px-4
-          tracking-wider
-          text-white
-          capitalize
-          lg:w-auto lg:mx-4
-          block
-          w-full
-          h-10
-          mt-6
-          font-semibold
-          rounded
-          shadow-md
-          bg-green-500
-          hover:bg-green-600
-          border-green-600 border-2
-          focus:shadow-outline focus:outline-none focus:ring-2
-          ring-offset-current ring-offset-2
-          transition
-          duration-300
-          ease-in-out
-          transform
-        "
-      >
-        Search
-      </button>
-    </div>
+      Search
+    </button>
   </div>
 
   <div
@@ -1292,12 +1295,14 @@
 <script>
 import TabBar from "../components/tabbar.vue";
 import DropDown from "../components/dropDown.vue";
+import Atolls from "../components/atolls.vue";
 
 export default {
   name: "Resorts",
   components: {
     TabBar,
     DropDown,
+    Atolls,
   },
 };
 </script>

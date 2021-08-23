@@ -9,8 +9,9 @@
         py-1
         pt-1.5
         h-10
-        min-w-max
+        lg:ml-4
         text-center
+        min-w-max
         justify-center
         items-center
         cursor-default
@@ -46,10 +47,10 @@
           absolute
           z-10
           mt-1
-          w-full
           bg-white
           shadow-lg
           max-h-56
+          w-full
           rounded-md
           py-1
           text-base
@@ -94,12 +95,27 @@ export default {
 
   setup() {
     const escapesList = [
-      { id: 1, name: "All Inclusive", unavailable: false },
-      { id: 2, name: "Honeymoon", unavailable: false },
-      { id: 3, name: "Luxury", unavailable: false },
-      { id: 4, name: "Budget", unavailable: false },
-      { id: 5, name: "Family", unavailable: false },
-      { id: 6, name: "Events", unavailable: false },
+      { id: 1, name: "Include All Atolls", unavailable: false },
+      { id: 2, name: "HA - North Thiladhunmathi", unavailable: false },
+      { id: 3, name: "HDh - South Thiladhunmathi ", unavailable: false },
+      { id: 4, name: "Sh - North Miladhunmadulu", unavailable: false },
+      { id: 5, name: "N - South Miladhunmadulu", unavailable: false },
+      { id: 6, name: "R - North Maalhosmadulu", unavailable: false },
+      { id: 7, name: "B - South Maalhosmadulu", unavailable: false },
+      { id: 8, name: "Lh - Faadhippolhu", unavailable: false },
+      { id: 9, name: "K - Kaafu Atoll", unavailable: false },
+      { id: 10, name: "AA - North Ari Atoll", unavailable: false },
+      { id: 11, name: "ADh - South Ari Atoll ", unavailable: false },
+      { id: 12, name: "V - Felidhu Atoll", unavailable: false },
+      { id: 13, name: "M - Mulakatholhu ", unavailable: false },
+      { id: 14, name: "F - North Nilandhe Atoll", unavailable: false },
+      { id: 15, name: "D - South Nilandhe Atoll", unavailable: false },
+      { id: 16, name: "Th - Kolhumadulu", unavailable: false },
+      { id: 17, name: "L - Hadhdhunmathi", unavailable: false },
+      { id: 18, name: "GA - North Huvadhu Atoll", unavailable: false },
+      { id: 19, name: "GDh - South Huvadhu Atoll", unavailable: false },
+      { id: 20, name: "Gn - Fuvahmulah", unavailable: false },
+      { id: 21, name: "S - Addu Atoll", unavailable: false },
     ];
     const selectedEscape = ref(escapesList[0]);
 

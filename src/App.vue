@@ -15,8 +15,8 @@
 <script setup>
 // import TabBar from "./components/tabbar.vue";
 // import Home from "./views/Home.vue";
-import Footer from "./components/footer.vue";
 // import About from "./views/About.vue";
+import Footer from "./components/footer.vue";
 </script>
 
 <style>
