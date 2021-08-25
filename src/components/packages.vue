@@ -3,7 +3,6 @@
     class="
       px-4
       py-16
-      mx-auto
       sm:max-w-xl
       md:max-w-full
       lg:max-w-screen-xl
@@ -12,7 +11,17 @@
       bg-gray-100
     "
   >
-    <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+    <div
+      class="
+        mx-5
+        max-w-xl
+        mb-10
+        md:mx-auto
+        sm:text-center
+        lg:max-w-2xl
+        md:mb-12
+      "
+    >
       <div>
         <p
           class="
@@ -95,6 +104,7 @@
       class="
         grid
         max-w-md
+        mx-10
         gap-10
         row-gap-5
         lg:max-w-screen-lg

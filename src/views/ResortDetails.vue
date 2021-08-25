@@ -60,8 +60,8 @@
         Luxury Resort
       </p>
     </div>
-    <div class="px-16 mb-10 w-full grid grid-flow-col grid-cols-2 my-10">
-      <div class="p-6 pl-0 items-center h-full grid gap-4 grid-cols-2">
+    <div class="px-10 mb-10 w-full grid md:grid-cols-2 my-10">
+      <div class="p-6 pl-0 items-center h-full grid gap-4 md:grid-cols-2">
         <div class="bg-center bg-cover bg-resort15 w-full h-full rounded">
           <img class="rounded object-cover h-96" />
         </div>
