@@ -10,6 +10,8 @@
         lg:max-w-screen-xl
         md:px-24
         lg:px-8
+        mt-20
+        lg:mt-0
       "
     >
       <div class="grid row-gap-10 mb-8 lg:grid-cols-6">

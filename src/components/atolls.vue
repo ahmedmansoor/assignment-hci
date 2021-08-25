@@ -81,7 +81,6 @@ import {
   ListboxOptions,
   ListboxOption,
 } from "@headlessui/vue";
-import { CheckIcon, SelectorIcon } from "@heroicons/vue/solid";
 
 export default {
   components: {
@@ -89,8 +88,6 @@ export default {
     ListboxButton,
     ListboxOptions,
     ListboxOption,
-    CheckIcon,
-    SelectorIcon,
   },
 
   setup() {

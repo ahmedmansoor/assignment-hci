@@ -76,7 +76,8 @@
       space-y-3
       lg:space-y-0 lg:flex-row
       justify-center
-      lg:mx-20
+      mx-10
+      sm:mx-20
     "
   >
     <!-- dropdpwn -->
@@ -133,7 +134,15 @@
   </div>
 
   <div
-    class="px-4 py-16 sm:max-w-xl md:max-w-full md:px-24 lg:px-8 lg:py-20 mx-16"
+    class="
+      px-4
+      py-16
+      sm:max-w-xl
+      md:max-w-full md:px-24
+      lg:px-8 lg:py-20
+      mx-10
+      lg:mx-16
+    "
   >
     <div class="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
       <div

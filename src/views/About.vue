@@ -1,11 +1,11 @@
 <template>
   <TabBar></TabBar>
-  <section id="About" class="flex flex-col items-center h-screen md:flex-row">
+  <section id="About" class="flex flex-col items-center h-full md:flex-row">
     <div
       class="
         hidden
         w-full
-        h-screen
+        h-full
         bg-surf bg-center bg-cover
         lg:block
         md:w-1/3
@@ -20,7 +20,7 @@
         items-center
         justify-center
         w-full
-        h-screen
+        h-full
         px-16
         md:px-10 md:w-3/5
         lg:max-w-full
@@ -59,7 +59,7 @@
             py-16
             mx-auto
             sm:max-w-xl
-            lg:max-w-screen-xl
+            lg:max-w-fuh-full-xl
             md:px-16
             lg:px-8
           "
