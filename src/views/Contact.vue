@@ -197,10 +197,10 @@
 </template>
 
 <script>
-import TabBar from '../components/tabbar.vue';
+import TabBar from "../components/tabbar.vue";
 
 export default {
-  name: 'Contact',
+  name: "Contact",
   components: {
     TabBar,
   },
