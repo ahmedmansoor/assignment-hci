@@ -4,7 +4,8 @@
     <h2
       class="
         pt-12
-        px-16
+        px-10
+        md:px-16
         text-3xl
         font-black font-heading
         dark:text-white
@@ -13,7 +14,7 @@
     >
       <span class="block">Arena Beach Resort</span>
     </h2>
-    <div class="flex px-16 mt-3 text-gray-500 tracking-wide">
+    <div class="flex px-10 md:px-16 mt-3 text-gray-500 tracking-wide">
       <div
         class="
           flex
@@ -60,8 +61,8 @@
         Luxury Resort
       </p>
     </div>
-    <div class="px-10 mb-10 w-full grid md:grid-cols-2 my-10">
-      <div class="p-6 pl-0 items-center h-full grid gap-4 md:grid-cols-2">
+    <div class="md:px-16 px-8 mb-10 w-full grid md:grid-cols-2 my-10">
+      <div class="pl-0 items-center h-full grid gap-4 md:grid-cols-2">
         <div class="bg-center bg-cover bg-resort15 w-full h-full rounded">
           <img class="rounded object-cover h-96" />
         </div>

@@ -6,10 +6,11 @@
       mx-10
       md:mx-auto
       sm:text-center
-      py-16
+      py-10
+      md:py-16
       pb-6
       lg:max-w-2xl
-      mt-5
+      md:mt-5
     "
   >
     <h2
@@ -135,7 +136,6 @@
 
   <div
     class="
-      px-4
       py-16
       sm:max-w-xl
       md:max-w-full md:px-24
@@ -144,7 +144,16 @@
       lg:mx-16
     "
   >
-    <div class="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
+    <div
+      class="
+        grid
+        gap-8
+        md:grid-cols-3
+        lg:grid-cols-4
+        sm:max-w-sm sm:mx-auto
+        lg:max-w-full
+      "
+    >
       <div
         class="
           overflow-hidden
@@ -162,12 +171,7 @@
         <div class="p-5 border border-t-0">
           <p class="mb-2 text-xs font-semibold tracking-wide uppercase">
             <a
-              class="
-                transition-colors
-                duration-300
-                text-green-600
-                hover:text-deep-purple-accent-700
-              "
+              class="transition-colors duration-300 text-gray-500"
               aria-label="Category"
               >kaafu atoll</a
             >
@@ -313,20 +317,19 @@
             "
             >Velassaru Maldives</a
           >
-
           <div class="content-center justify-center self-center">
             <router-link :to="{ name: 'resortdetails' }">
               <a
-                aria-label=""
                 class="
                   inline-flex
                   items-center
                   font-semibold
                   transition-colors
                   hover:bg-gray-300
+                  text-gray-800
+                  bg-gray-200
                   duration-300
                   p-2
-                  bg-gray-200
                   rounded
                   ease-in-out
                   transform
@@ -358,12 +361,7 @@
         <div class="p-5 border border-t-0">
           <p class="mb-2 text-xs font-semibold tracking-wide uppercase">
             <a
-              class="
-                transition-colors
-                duration-300
-                text-green-600
-                hover:text-deep-purple-accent-700
-              "
+              class="transition-colors duration-300 text-gray-500"
               aria-label="Category"
               >thaa atoll</a
             >
@@ -512,27 +510,29 @@
           >
 
           <div class="content-center justify-center self-center">
-            <a
-              aria-label=""
-              class="
-                inline-flex
-                items-center
-                font-semibold
-                transition-colors
-                hover:bg-gray-300
-                duration-300
-                p-2
-                bg-gray-200
-                rounded
-                ease-in-out
-                transform
-                tracking-wide
-                cursor-pointer
-                w-full
-                justify-center
-              "
-              >View Packages</a
-            >
+            <router-link :to="{ name: 'resortdetails' }">
+              <a
+                class="
+                  inline-flex
+                  items-center
+                  font-semibold
+                  transition-colors
+                  hover:bg-gray-300
+                  text-gray-800
+                  bg-gray-200
+                  duration-300
+                  p-2
+                  rounded
+                  ease-in-out
+                  transform
+                  tracking-wide
+                  cursor-pointer
+                  w-full
+                  justify-center
+                "
+                >View Packages</a
+              >
+            </router-link>
           </div>
         </div>
       </div>
@@ -553,12 +553,7 @@
         <div class="p-5 border border-t-0">
           <p class="mb-2 text-xs font-semibold tracking-wide uppercase">
             <a
-              class="
-                transition-colors
-                duration-300
-                text-green-600
-                hover:text-deep-purple-accent-700
-              "
+              class="transition-colors duration-300 text-gray-500"
               aria-label="Category"
               >alifu atoll</a
             >
@@ -705,27 +700,29 @@
           >
 
           <div class="content-center justify-center self-center">
-            <a
-              aria-label=""
-              class="
-                inline-flex
-                items-center
-                font-semibold
-                transition-colors
-                hover:bg-gray-300
-                duration-300
-                p-2
-                bg-gray-200
-                rounded
-                ease-in-out
-                transform
-                tracking-wide
-                cursor-pointer
-                w-full
-                justify-center
-              "
-              >View Packages</a
-            >
+            <div class="content-center justify-center self-center">
+              <a
+                class="
+                  inline-flex
+                  items-center
+                  font-semibold
+                  transition-colors
+                  hover:bg-gray-300
+                  text-gray-800
+                  bg-gray-200
+                  duration-300
+                  p-2
+                  rounded
+                  ease-in-out
+                  transform
+                  tracking-wide
+                  cursor-pointer
+                  w-full
+                  justify-center
+                "
+                >View Packages</a
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -740,18 +737,13 @@
         "
       >
         <!-- card4 -->
-        <div class="bg-resort9 bg-cover bg-center">
+        <div class="bg-resort18 bg-cover bg-center">
           <img class="object-cover w-full h-64" />
         </div>
         <div class="p-5 border border-t-0">
           <p class="mb-2 text-xs font-semibold tracking-wide uppercase">
             <a
-              class="
-                transition-colors
-                duration-300
-                text-green-600
-                hover:text-deep-purple-accent-700
-              "
+              class="transition-colors duration-300 text-gray-500"
               aria-label="Category"
               >thaa atoll</a
             >
@@ -898,27 +890,410 @@
           >
 
           <div class="content-center justify-center self-center">
+            <div class="content-center justify-center self-center">
+              <a
+                class="
+                  inline-flex
+                  items-center
+                  font-semibold
+                  transition-colors
+                  hover:bg-gray-300
+                  text-gray-800
+                  bg-gray-200
+                  duration-300
+                  p-2
+                  rounded
+                  ease-in-out
+                  transform
+                  tracking-wide
+                  cursor-pointer
+                  w-full
+                  justify-center
+                "
+                >View Packages</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card4 -->
+      <div
+        class="
+          overflow-hidden
+          transition-shadow
+          duration-300
+          bg-white
+          rounded
+          shadow-sm
+        "
+      >
+        <!-- card4 -->
+        <div class="bg-resort9 bg-cover bg-center">
+          <img class="object-cover w-full h-64" />
+        </div>
+        <div class="p-5 border border-t-0">
+          <p class="mb-2 text-xs font-semibold tracking-wide uppercase">
             <a
-              aria-label=""
-              class="
-                inline-flex
-                items-center
-                font-semibold
-                transition-colors
-                hover:bg-gray-300
-                duration-300
-                p-2
-                bg-gray-200
-                rounded
-                ease-in-out
-                transform
-                tracking-wide
-                cursor-pointer
-                w-full
-                justify-center
-              "
-              >View Packages</a
+              class="transition-colors duration-300 text-gray-500"
+              aria-label="Category"
+              >thaa atoll</a
             >
+          </p>
+          <!-- rating -->
+          <div class="mr-2 flex flex-row mb-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="
+                w-4
+                h-4
+                text-gray-800
+                bg-yellow-200
+                transition-colors
+                duration-300
+                group-hover:text-deep-purple-accent-700
+              "
+            >
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                fill="none"
+                stroke-miterlimit="10"
+              ></polygon>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="
+                w-4
+                h-4
+                text-gray-800
+                bg-yellow-200
+                transition-colors
+                duration-300
+                group-hover:text-deep-purple-accent-700
+              "
+            >
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                fill="none"
+                stroke-miterlimit="10"
+              ></polygon>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="
+                w-4
+                h-4
+                text-gray-800
+                bg-yellow-200
+                transition-colors
+                duration-300
+                group-hover:text-deep-purple-accent-700
+              "
+            >
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                fill="none"
+                stroke-miterlimit="10"
+              ></polygon>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="
+                w-4
+                h-4
+                text-gray-600
+                transition-colors
+                duration-300
+                group-hover:text-deep-purple-accent-700
+              "
+            >
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                fill="none"
+                stroke-miterlimit="10"
+              ></polygon>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="
+                w-4
+                h-4
+                text-gray-600
+                transition-colors
+                duration-300
+                group-hover:text-deep-purple-accent-700
+              "
+            >
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                fill="none"
+                stroke-miterlimit="10"
+              ></polygon>
+            </svg>
+          </div>
+          <a
+            aria-label="Category"
+            class="
+              inline-block
+              mb-3
+              text-lg
+              font-black
+              leading-5
+              transition-colors
+              duration-300
+              hover:text-deep-purple-accent-700
+            "
+            >Paradise Island Resort</a
+          >
+
+          <div class="content-center justify-center self-center">
+            <div class="content-center justify-center self-center">
+              <a
+                class="
+                  inline-flex
+                  items-center
+                  font-semibold
+                  transition-colors
+                  hover:bg-gray-300
+                  text-gray-800
+                  bg-gray-200
+                  duration-300
+                  p-2
+                  rounded
+                  ease-in-out
+                  transform
+                  tracking-wide
+                  cursor-pointer
+                  w-full
+                  justify-center
+                "
+                >View Packages</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card6 -->
+      <div
+        class="
+          overflow-hidden
+          transition-shadow
+          duration-300
+          bg-white
+          rounded
+          shadow-sm
+        "
+      >
+        <div class="bg-resort19 bg-cover bg-center">
+          <img class="object-cover w-full h-64" />
+        </div>
+        <div class="p-5 border border-t-0">
+          <p class="mb-2 text-xs font-semibold tracking-wide uppercase">
+            <a
+              class="transition-colors duration-300 text-gray-500"
+              aria-label="Category"
+              >thaa atoll</a
+            >
+          </p>
+          <!-- rating -->
+          <div class="mr-2 flex flex-row mb-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="
+                w-4
+                h-4
+                text-gray-800
+                bg-yellow-200
+                transition-colors
+                duration-300
+                group-hover:text-deep-purple-accent-700
+              "
+            >
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                fill="none"
+                stroke-miterlimit="10"
+              ></polygon>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="
+                w-4
+                h-4
+                text-gray-800
+                bg-yellow-200
+                transition-colors
+                duration-300
+                group-hover:text-deep-purple-accent-700
+              "
+            >
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                fill="none"
+                stroke-miterlimit="10"
+              ></polygon>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="
+                w-4
+                h-4
+                text-gray-800
+                bg-yellow-200
+                transition-colors
+                duration-300
+                group-hover:text-deep-purple-accent-700
+              "
+            >
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                fill="none"
+                stroke-miterlimit="10"
+              ></polygon>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="
+                w-4
+                h-4
+                text-gray-600
+                transition-colors
+                duration-300
+                group-hover:text-deep-purple-accent-700
+              "
+            >
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                fill="none"
+                stroke-miterlimit="10"
+              ></polygon>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="
+                w-4
+                h-4
+                text-gray-600
+                transition-colors
+                duration-300
+                group-hover:text-deep-purple-accent-700
+              "
+            >
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                fill="none"
+                stroke-miterlimit="10"
+              ></polygon>
+            </svg>
+          </div>
+          <a
+            aria-label="Category"
+            class="
+              inline-block
+              mb-3
+              text-lg
+              font-black
+              leading-5
+              transition-colors
+              duration-300
+              hover:text-deep-purple-accent-700
+            "
+            >Kandolhu Maldives</a
+          >
+
+          <div class="content-center justify-center self-center">
+            <div class="content-center justify-center self-center">
+              <a
+                class="
+                  inline-flex
+                  items-center
+                  font-semibold
+                  transition-colors
+                  hover:bg-gray-300
+                  text-gray-800
+                  bg-gray-200
+                  duration-300
+                  p-2
+                  rounded
+                  ease-in-out
+                  transform
+                  tracking-wide
+                  cursor-pointer
+                  w-full
+                  justify-center
+                "
+                >View Packages</a
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -933,20 +1308,15 @@
         "
       >
         <!-- card5 -->
-        <div class="bg-resort7 bg-cover bg-center">
+        <div class="bg-resort17 bg-cover bg-center">
           <img class="object-cover w-full h-64" />
         </div>
         <div class="p-5 border border-t-0">
           <p class="mb-2 text-xs font-semibold tracking-wide uppercase">
             <a
-              class="
-                transition-colors
-                duration-300
-                text-green-600
-                hover:text-deep-purple-accent-700
-              "
+              class="transition-colors duration-300 text-gray-500"
               aria-label="Category"
-              >laamu atoll</a
+              >North Ari Atoll</a
             >
           </p>
           <!-- rating -->
@@ -1088,21 +1458,21 @@
               duration-300
               hover:text-deep-purple-accent-700
             "
-            >Anantara Dhigu</a
+            >Sheraton Maldives Full Moon Resort</a
           >
 
           <div class="content-center justify-center self-center">
             <a
-              aria-label=""
               class="
                 inline-flex
                 items-center
                 font-semibold
                 transition-colors
                 hover:bg-gray-300
+                text-gray-800
+                bg-gray-200
                 duration-300
                 p-2
-                bg-gray-200
                 rounded
                 ease-in-out
                 transform
@@ -1127,18 +1497,13 @@
         "
       >
         <!-- card6 -->
-        <div class="bg-resort8 bg-cover bg-center">
+        <div class="bg-resort16 bg-cover bg-center">
           <img class="object-cover w-full h-64" />
         </div>
         <div class="p-5 border border-t-0">
           <p class="mb-2 text-xs font-semibold tracking-wide uppercase">
             <a
-              class="
-                transition-colors
-                duration-300
-                text-green-600
-                hover:text-deep-purple-accent-700
-              "
+              class="transition-colors duration-300 text-gray-500"
               aria-label="Category"
               >gaafu atoll</a
             >
@@ -1286,27 +1651,29 @@
           >
 
           <div class="content-center justify-center self-center">
-            <a
-              aria-label=""
-              class="
-                inline-flex
-                items-center
-                font-semibold
-                transition-colors
-                hover:bg-gray-300
-                duration-300
-                p-2
-                bg-gray-200
-                rounded
-                ease-in-out
-                transform
-                tracking-wide
-                cursor-pointer
-                w-full
-                justify-center
-              "
-              >View Packages</a
-            >
+            <div class="content-center justify-center self-center">
+              <a
+                class="
+                  inline-flex
+                  items-center
+                  font-semibold
+                  transition-colors
+                  hover:bg-gray-300
+                  text-gray-800
+                  bg-gray-200
+                  duration-300
+                  p-2
+                  rounded
+                  ease-in-out
+                  transform
+                  tracking-wide
+                  cursor-pointer
+                  w-full
+                  justify-center
+                "
+                >View Packages</a
+              >
+            </div>
           </div>
         </div>
       </div>

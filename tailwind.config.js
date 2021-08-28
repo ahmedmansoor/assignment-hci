@@ -28,6 +28,9 @@ module.exports = {
         resort14: "url('assets/img/resorts/resort14.jpg')",
         resort15: "url('assets/img/resorts/resort15.jpg')",
         resort16: "url('assets/img/resorts/resort16.jpg')",
+        resort17: "url('assets/img/resorts/resort17.jpg')",
+        resort18: "url('assets/img/resorts/resort18.jpg')",
+        resort19: "url('assets/img/resorts/resort19.jpg')",
       }),
       fontFamily: {
         heading: ["LatoBold"],

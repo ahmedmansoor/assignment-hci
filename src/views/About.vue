@@ -5,7 +5,7 @@
       class="
         hidden
         w-full
-        h-full
+        h-screen
         bg-surf bg-center bg-cover
         lg:block
         md:w-1/3
@@ -21,8 +21,8 @@
         justify-center
         w-full
         h-full
-        px-16
-        md:px-10 md:w-3/5
+        px-14
+        md:w-3/5
         lg:max-w-full
         md:mx-10
       "

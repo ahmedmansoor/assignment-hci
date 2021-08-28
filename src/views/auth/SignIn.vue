@@ -11,7 +11,7 @@
         justify-center
         w-full
         h-screen
-        px-16
+        px-12
         md:max-w-md
         lg:max-w-full
         md:mx-auto md:w-1/2
@@ -22,7 +22,6 @@
         <h1
           class="
             mb-5
-            mt-3
             sm:text-3xl
             text-2xl
             font-black

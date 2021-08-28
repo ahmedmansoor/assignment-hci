@@ -44,7 +44,7 @@
       <ListboxOptions
         class="
           absolute
-          z-10
+          z-20
           mt-1
           w-full
           bg-white

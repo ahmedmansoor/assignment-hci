@@ -2,7 +2,7 @@
   <Listbox v-model="selectedEscape">
     <div
       class="
-        z-20
+        z-10
         relative
         rounded-md
         shadow-sm
