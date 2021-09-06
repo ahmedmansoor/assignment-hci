@@ -72,7 +72,7 @@
         </div>
       </div>
       <!-- texts -->
-      <div class="w-full">
+      <div class="w-full md:ml-8">
         <p class="mt-8 my-5 text-md text-gray-500">
           Offering a barbecue and children's playground, Olhumathi View Inn is
           located in Ukulhas. The guest house has a fitness centre and a private
