@@ -1,6 +1,6 @@
 <template>
   <section class="text-gray-800">
-    <TabBar class="fixed w-full bg-white z-10"></TabBar>
+    <TabBar class="fixed w-full bg-white z-50"></TabBar>
     <div
       class="
         flex flex-col

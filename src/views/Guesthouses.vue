@@ -1,5 +1,5 @@
 <template>
-  <TabBar class="fixed w-full bg-white z-10"></TabBar>
+  <TabBar class="fixed w-full bg-white z-50"></TabBar>
   <div
     class="
       max-w-xl
@@ -130,7 +130,7 @@
         transform
       "
     >
-      Searchh
+      Search
     </button>
   </div>
 

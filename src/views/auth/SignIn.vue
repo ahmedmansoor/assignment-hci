@@ -1,5 +1,5 @@
 <template>
-  <TabBar class="fixed w-full bg-white z-10"></TabBar>
+  <TabBar class="fixed w-full bg-white z-50"></TabBar>
   <section id="SignIn" class="flex flex-col items-center h-screen md:flex-row">
     <div class="hidden w-full h-screen bg-people bg-cover lg:block md:w-2/3">
       <img alt="" class="object-cover w-full h-full" />
