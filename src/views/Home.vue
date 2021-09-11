@@ -1,7 +1,6 @@
 <template>
-  <!-- <section class="text-gray-800 bg-emptybeach bg-cover bg-top bg-no-repeat"> -->
   <section class="text-gray-800">
-    <TabBar></TabBar>
+    <TabBar class="fixed w-full bg-white z-10"></TabBar>
     <div
       class="
         flex flex-col
@@ -16,7 +15,15 @@
         class="py-10 flex flex-col px-10 sm:px-16 w-full md:mx-auto text-center"
       >
         <h1
-          class="mb-6 text-5xl font-black tracking-tight title-font font-sans"
+          class="
+            pt-10
+            mb-6
+            text-5xl
+            font-black
+            tracking-tight
+            title-font
+            font-sans
+          "
         >
           Find Deals for Any Season
         </h1>

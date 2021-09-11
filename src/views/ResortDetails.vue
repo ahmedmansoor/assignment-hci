@@ -1,5 +1,5 @@
 <template>
-  <TabBar></TabBar>
+  <TabBar class="fixed w-full bg-white z-10"></TabBar>
   <div>
     <h2
       class="

@@ -1,5 +1,5 @@
 <template>
-  <TabBar></TabBar>
+  <TabBar class="fixed w-full bg-white z-10"></TabBar>
   <section id="About" class="flex flex-col items-center h-full md:flex-row">
     <div
       class="

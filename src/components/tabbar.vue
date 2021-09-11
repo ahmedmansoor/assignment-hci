@@ -6,10 +6,6 @@
       >
         <router-link :to="{ name: 'Home' }" tag="button">
           <a class="flex font-medium items-center text-gray-900 mb-4 md:mb-0">
-            <!-- <img
-            width="60"
-            src="https://img.icons8.com/clouds/100/000000/beach.png"
-          /> -->
             <span class="font-black sm:text-xl lg:text-2xl font-heading"
               >Maldives Bookings</span
             >
@@ -156,10 +152,6 @@
             <div class="flex items-center justify-between w-full lg:w-auto">
               <a href="#">
                 <span class="sr-only">Workflow</span>
-                <!-- <img
-                  class="h-8 w-auto sm:h-10"
-                  src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                /> -->
                 <span
                   class="ml-3 mb-1 font-black font-heading text-2xl lg:hidden"
                   >Maldives Bookings</span
@@ -226,11 +218,6 @@
           >
             <div class="px-5 pt-4 flex items-center justify-between">
               <div>
-                <!-- <img
-                  class="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                  alt=""
-                /> -->
                 <span class="mb-1 font-black font-heading text-2xl"
                   >Maldives Bookings</span
                 >
@@ -257,25 +244,6 @@
                 </PopoverButton>
               </div>
             </div>
-            <!-- <div class="px-2 pt-2 pb-3 space-y-1">
-              <a
-                v-for="item in navigation"
-                :key="item.name"
-                :href="item.href"
-                class="
-                  block
-                  px-3
-                  py-2
-                  rounded-md
-                 
-                  font-medium
-                  text-gray-700
-                  hover:bg-yellow-100 hover:text-yellow-700
-                "
-                >{{ item.name }}</a
-              >
-            </div> -->
-
             <router-link :to="{ name: 'Home' }">
               <a
                 class="

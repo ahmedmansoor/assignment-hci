@@ -23,24 +23,15 @@
       </div>
     </div>
     <div
-      class="
-        px-4
-        mb-16
-        mx-auto
-        sm:max-w-xl
-        md:max-w-full
-        lg:max-w-screen-xl
-        py-10
-      "
+      class="mb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl py-10"
     >
       <div
         class="
           grid
           gap-2
           xl:grid-cols-4
-          lg:grid-cols-3
-          md:grid-cols-2
-          sm:max-w-sm sm:mx-auto
+          md:grid-cols-3
+          sm:mx-auto
           lg:max-w-full
           cursor-pointer
         "

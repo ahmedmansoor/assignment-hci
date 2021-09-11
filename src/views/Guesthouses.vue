@@ -1,5 +1,5 @@
 <template>
-  <TabBar></TabBar>
+  <TabBar class="fixed w-full bg-white z-10"></TabBar>
   <div
     class="
       max-w-xl
@@ -10,7 +10,6 @@
       md:py-16
       pb-6
       lg:max-w-2xl
-      md:mt-5
     "
   >
     <h2
@@ -25,6 +24,7 @@
         text-gray-900
         sm:text-4xl
         md:mx-auto
+        pt-24
       "
     >
       <span class="relative inline-block">

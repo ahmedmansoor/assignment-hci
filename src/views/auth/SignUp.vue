@@ -1,5 +1,5 @@
 <template>
-  <TabBar></TabBar>
+  <TabBar class="fixed w-full bg-white z-10"></TabBar>
   <section id="SignUp" class="flex flex-col items-center h-screen md:flex-row">
     <div
       class="
@@ -20,18 +20,18 @@
         justify-center
         w-full
         h-screen
-        px-16
+        px-12
         md:max-w-md
         lg:max-w-full
         md:mx-auto md:w-1/2
         xl:w-1/3
       "
     >
-      <div class="w-full h-100">
+      <div class="w-full h-100 py-22">
         <h1
           class="
+            mt-48
             mb-5
-            mt-3
             sm:text-3xl
             text-2xl
             font-black

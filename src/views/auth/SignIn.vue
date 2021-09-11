@@ -1,5 +1,5 @@
 <template>
-  <TabBar></TabBar>
+  <TabBar class="fixed w-full bg-white z-10"></TabBar>
   <section id="SignIn" class="flex flex-col items-center h-screen md:flex-row">
     <div class="hidden w-full h-screen bg-people bg-cover lg:block md:w-2/3">
       <img alt="" class="object-cover w-full h-full" />
@@ -14,13 +14,14 @@
         px-12
         md:max-w-md
         lg:max-w-full
-        md:mx-auto md:w-1/2
+        md:mx-auto
         xl:w-1/3
       "
     >
       <div class="w-full h-100">
         <h1
           class="
+            mt-32
             mb-5
             sm:text-3xl
             text-2xl
