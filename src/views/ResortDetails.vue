@@ -3,7 +3,7 @@
   <div>
     <h2
       class="
-        pt-12
+        pt-32
         px-10
         md:px-16
         text-3xl
